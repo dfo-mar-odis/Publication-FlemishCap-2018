@@ -1,0 +1,240 @@
+LDEO LADCP software: Version IX_10
+#################### step 1: LOAD LADCP DATA #########################
+LOADING CHECKPOINT checkpoints/050_0
+RE-LOADING PER-CAST PARAMETERS
+[Warning: Directory already exists.] 
+[> In <a href="matlab: opentoline('U:\LADCP\HUD2013021_Flem_softwareUPDATE\proc\set_cast_params.m',38,1)">set_cast_params at 38</a>
+  In <a href="matlab: opentoline('U:\Ladcp\HUD2013021_Flem_softwareUPDATE\begin_processing_step.m',23,1)">begin_processing_step at 23</a>
+  In <a href="matlab: opentoline('U:\Ladcp\HUD2013021_Flem_softwareUPDATE\process_cast.m',162,1)">process_cast at 162</a>] 
+LOADRDI:
+ loading down-data raw/050AD000.000
+ read 3430 ensembles with 20 bins each
+ loading up-data raw/050AU000.000
+ read 3434 ensemble and 20 bins 
+ WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING 
+ warning instruments have no fixed ping rate 
+  down dt for common ping number:1.4762  up dt :1.4797 hours 
+ find best time match of up-looking ADCP to down looking ADCP
+ up instrument is different by 1 ensembles
+ WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING 
+ bestlag removed 160 spikes
+ try to shift timeseries by lag: 0 correlation: 0.99714
+ shift ADCP timeseries by 0 ensembles
+ number of joint ensembles is : 3430
+ found 392 finite RDI bottom velocities
+ removed 1243 values because of error velocity > 0.5 m/s
+ removed 47 bottom-track values because of error velocity > 0.5 m/s
+ removed  33 values ( 0.96 %) because of horizontal speed > 2.5 m/s
+ using whole profile since no start time was given
+ multiply weight of bin 1 by 0
+ Outlier discarded 3137 bins down looking
+ Outlier discarded 40 bottom track
+ Outlier discarded 1948 bins up looking
+ found local lookup table for serial # to instid 
+ FINDLOG: search near file: raw/050AD000.000
+ READSERIAL_WH: parse file raw/050AD000.LOG
+ serial number is : 16389
+ down looking serial number is : 16389
+ FINDLOG: search near file: raw/050AU000.000
+ READSERIAL_WH: parse file raw/050AU000.LOG
+ serial number is : 13984
+   up looking serial number is : 13984
+==> STEP 1 TOOK 95.8 seconds
+#################### step 2: FIX LADCP-DATA PROBLEMS #################
+==> STEP 2 TOOK 0.0 seconds
+#################### step 3: LOAD GPS DATA ###########################
+LOADNAV: load NAV time series CTD/021a050.cnv
+ number of NAV scans: 4433  delta t : 0.99999 seconds
+executing magdec -45.7886 48.8962 2013 7 5
+ corrected for magnetic declination of -18.0 deg
+==> STEP 3 TOOK 1.0 seconds
+#################### step 4: GET BOTTOM-TRACK DATA ###################
+GETBTRACK creates own bottom track in addition to RDI
+  in: p.btrk_mode 3 and p.btrk_used 1
+ using increased bottom echo amplitudes to create bottom track
+ localmax2: found 2064 valid values
+ found 24 bottom depth below btrk_range 50
+ use 0.5 bins below maximum target strength for own bottom track velocity
+ created 1306 bottom distances keeping original
+ removed 83 bottom track profiles W_btrk - W_ref difference > 0.05
+ boutlier removed 35 bottom track velocities 
+ created 555 bottom track velocities keeping original
+ out: p.btrk_mode 3 and p.btrk_used 1
+==> STEP 4 TOOK 0.8 seconds
+#################### step 5: LOAD CTD PROFILE ########################
+==> STEP 5 TOOK 0.0 seconds
+#################### step 6: LOAD CTD TIME SERIES ####################
+LOADCTD: load CTD time series CTD/021a050.cnv
+ read 4433 CTD scans; median delta_t = 1.00 seconds
+ interpolated to 4431 CTD scans; delta_t = 1.00 seconds
+ 90% LADCP depth  2106 at 05-Jul-2013 01:14:40
+ 90% CTD pressure 2129 at 05-Jul-2013 01:08:38
+ adjusting GPS time to CTD time (+362 seconds)
+ Changed Start Time : 05-Jul-2013 00:28:37  to 05-Jul-2013 00:42:41
+ Changed End   Time : 05-Jul-2013 01:57:11  to 05-Jul-2013 01:52:33
+ median CTD time difference 0.99999 s
+ removed 0 pressure spikes
+ use 1 time base for W_ctd
+ CTD max depth : 2333
+ bestlag removed 14 spikes
+ lag: 1  correlation: 0.8911
+ bestlag removed 24 spikes
+ lag: 1  correlation: 0.93167
+ bestlag removed 18 spikes
+ lag: 1  correlation: 0.92252
+ bestlag removed 21 spikes
+ lag: 1  correlation: 0.9425
+ bestlag removed 23 spikes
+ lag: 1  correlation: 0.98379
+ bestlag removed 14 spikes
+ lag: 1  correlation: 0.90703
+ bestlag removed 18 spikes
+ lag: 1  correlation: 0.90081
+ bestlag removed 18 spikes
+ lag: 1  correlation: 0.9187
+ bestlag removed 30 spikes
+ lag: 1  correlation: 0.93902
+ median lag 1
+ most popular lag 1
+ best correlated lag 1
+ BESTTLAG:  lag is: 1  for which 113% of 8 lags agree
+ best lag W: 1 CTD scans ~ -1 seconds  corr:0.98379
+ adjust ADCP time to CTD time and shift depth record 
+ made CTD profile from time series data. 
+ update start pos  from:NaN°N     NaN'  NaN°E     NaN'
+			to:48°N 53.7372'   45°W 47.2620'
+ update end pos    from:NaN°N     NaN'  NaN°E     NaN'
+			to:48°N 53.7658'   45°W 47.5188'
+==> STEP 6 TOOK 1.8 seconds
+#################### step 7: FIND SURFACE & SEA BED ##################
+GETDPTHI: Depth from vertical velocity inverse method
+ starting run 1 to get LADCP depth
+ take soundspeed from CTD profile 
+ correct velocities for sound speed 
+ use CTD time series depth, will not do depth inversion 
+ LADCP minus CTD depth mean: -5.0168  std: 5.1592
+ maximum depth from int W is :2333
+ should be                   :2333
+  bottom found at 2343 +/- 1 m
+ correct bin length for sound speed
+ removing 431 values below bottom
+==> STEP 7 TOOK 1.4 seconds
+#################### step 8: APPLY PITCH/ROLL CORRECTIONS ############
+==> STEP 8 TOOK 0.0 seconds
+#################### step 9: EDIT DATA ###############################
+ bin masking               : set 4217 weights to NaN
+ side-lobe contamination   : set 781 weights to NaN
+ spike filter              : set 14 weights to NaN
+==> STEP 9 TOOK 0.3 seconds
+#################### step 10: FORM SUPER ENSEMBLES ###################
+PREPINV: prepare data for inversion, form Super-Ensembles
+ average profiles over (p.avdz) 9.8658 meter
+ reduce weight for larger tilts 0.5 at 10 degree
+ mean compass offset based on velocity is -1.8364 deg
+ mean compass offset based on tilt is -0.89419 deg
+ rot up2down use mean up/down compass
+ will not correct for sound speed twice
+ remove reference velocity and average ensembles 
+ Outlier discarded 312 bins down looking
+ Outlier discarded 336 bins up looking
+ found 1 bottom track std==0 set to 0.1 m/s
+ found 26 finite bottom track ensembles
+ discarded 3 bottom tracks velocities because of wstd  > 0.091961
+ set 73 weight values to nan  because super ensemble std =0 
+ set 126 values to minimum super ensemble std 0.042635
+ reduced ensemble size is 371
+==> STEP 10 TOOK 7.7 seconds
+#################### step 11: REMOVE SUPER-ENSEMBLE OUTLIERS #########
+==> STEP 11 TOOK 1.2 seconds
+#################### step 12: RE-FORM SUPER ENSEMBLES ################
+ mean compass offset based on tilt is -0.89419 deg
+ remove first guess ocean velocity from raw data
+ adjusted for velocity offset in up and down looking ADCP
+ remove first guess ocean velocity from raw data
+ rot up2down use mean up/down compass
+ rotated earlier, use difference 
+ will not correct for sound speed twice
+ remove reference velocity and average ensembles 
+ Outlier discarded 304 bins down looking
+ Outlier discarded 334 bins up looking
+ found 1 bottom track std==0 set to 0.1 m/s
+ found 26 finite bottom track ensembles
+ discarded 3 bottom tracks velocities because of wstd  > 0.091961
+ set 68 weight values to nan  because super ensemble std =0 
+ set 126 values to minimum super ensemble std 0.042635
+ reduced ensemble size is 371
+==> STEP 12 TOOK 8.6 seconds
+#################### step 13: (RE-)LOAD SADCP DATA ###################
+LOADSADCP: load SADCP data file SADCP/SADCP_hud2013021.mat
+ found 5 SADCP profiles 
+==> STEP 13 TOOK 0.2 seconds
+#################### step 14: CALCULATE INVERSE SOLUTION #############
+GETINV:  compute best velocity profile
+ Barotropic velocity error 0.014313 [m/s]
+ super ensemble velocity error 0.022249 [m/s]
+ set velocity error to:0.040447 [m/s]
+ vertical resolution (ps.dz) is 9.8663 [m]
+ use super ensemble std based weights normalized by 0.040447 m/s 
+ preaveraged GPS ships vel 1 times 
+ remove 719 constaints below minimum weight 
+ smooth Ocean velocity profile
+ found 1 ill constrained elements will smooth 
+ smooth CTD velocity profile
+ no smoothness constraint applied 
+ bottom inversion 
+ 23 bottom track ctd-vel weights of about : 2.1393
+ weight for bottom track is (ps.botfac) 1
+ mean sadcp weight : 1.1774
+ weight for SADCP vel is (ps.sadcpfac) 1
+ normalized barotropic constrain weight: 2.8259
+ mean individual ctd velocity weight : 189.6973
+ ready for inversion  length of  d:   9206
+           (CTD vel)  length of A1:    371
+         (ocean vel)  length of A2:    236
+Moore-Penrose inverse
+ solve only down trace
+ smooth Ocean velocity profile
+ found 1 ill constrained elements will smooth 
+ smooth CTD velocity profile
+ no smoothness constraint applied 
+Moore-Penrose inverse w/o errors
+ solve only up trace
+ smooth Ocean velocity profile
+ found 1 ill constrained elements will smooth 
+ smooth CTD velocity profile
+ no smoothness constraint applied 
+Moore-Penrose inverse w/o errors
+CHECKINV all values are given in [m/s] 
+ Velocity profile error:  0.039  should be about noise:  0.029
+ Check bottom track rms:  0.019  should be smaller than  0.066 /  1.000
+ Check SADCP        rms:  0.015  should be smaller than  0.034 /  1.000
+ GPS-LADCP ship spd diff: 0.003  should be smaller than  0.014 /  1.000
+ use reference layer W
+CHECKBTRK: check bottom track against U_ctd solution 
+ profiles within give acceptable range: 278
+  U bias : 0.003 [m/s]  std: 0.050 [m/s]
+  V bias : 0.005 [m/s]  std: 0.052 [m/s]
+  W bias : 0.002 [m/s]  std: 0.017 [m/s]
+  W slope fact :0.0057 [1/m] lower W below bottom 
+  W diff :0.1420 [m/s] ping to ping w difference 
+  H std :   1.5 [m]  large means bottom is rough/sloped
+  Tilt mean :3.2 +/- 1.2 [^o]  
+==> STEP 14 TOOK 5.0 seconds
+#################### step 15: CALCULATE SHEAR SOLUTION ###############
+GETSHEAR2: average shear profile over (ps.dz) 9.8663 [m]
+ maximum std (stdf) 2 of data 
+ minimum weight  0.1 of data 
+ will use 100 % of data 
+==> STEP 15 TOOK 0.4 seconds
+#################### step 16: CALCULATE DIFFUSIVITY PROFILE ##########
+==> STEP 16 TOOK 0.0 seconds
+#################### step 17: PLOT RESULTS & SHOW WARNINGS ###########
+ do not know calibration of this instrument make a guess: 
+ Battery Voltage is 50.2 V
+LADCP WARNINGS                               
+ warning instruments have no fixed ping rate 
+ 
+ LADCP processing warnings: 
+==> STEP 17 TOOK 0.4 seconds
+#################### step 18: SAVE OUTPUT ############################
+ save results 

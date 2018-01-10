@@ -1,0 +1,42 @@
+    LADCP processing protocol 
+ 
+Station name         : up & downlooker LADCP cruise # 2014017 cast # 41 
+ 
+LADCP input files    : 
+down                 : raw/041AD000.000 
+up                   : raw/041AU000.000 
+ 
+Command file info    :  
+ 
+Prof start (LADCP)   : 2014  7 10  4 49  0 
+Prof end (LADCP)     : 2014  7 10  5 41 12 
+Start position       : 48°N  6.0324'    46°W 18.8364' 
+End position         : 48°N  5.9131'    46°W 18.7680' 
+Magnetic deviation   : -17.602696 
+Time offset          : 0.000000 
+Depths               : 1.010591e+01 1.155250e+03 9.887272e+00 
+ 
+Processing thresholds  
+ 
+min percent good     : 0.000000 
+max error velocity   : 0.500000 
+max w variability    : 0.200000 
+ 
+Processing results  
+ 
+u ship speed   (m/s) : 0.027011 
+v ship speed   (m/s) : -0.070537 
+x displacement   (m) : 84.599638 
+y displacement   (m) : -220.922208 
+bottom found at  (m) : 1160.730861 
+maximum instr dep(m) : 1155.250229 
+maximum prof dep (m) : 1150.244036 
+bottom track mode    : 3.000000 
+bottom track thrsd   : 10.000000 
+bottom track range   : 300.000000 
+bottom track range   : 50.000000 
+bottom track source  : RDI 
+profile ensembles    : 1 to 3311 
+ 
+Computer : PCWIN64 
+Total processing time:  187 seconds 

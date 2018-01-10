@@ -1,0 +1,13 @@
+This directory contains the final code for the final draft of the paper. The files are ordered
+such that a re-build of the paper is successful given that the user has all the data files
+with the same file structure. These files can be sent on request of the re-builder.
+
+***_whatThisFileContains.R - these are files which create .rda files which are used in subsequent
+files with the same naming convention, or are used in the files which create figures, or are
+loaded in the .Rnw file to spit out calculated values.
+
+**_whatThisFileContains.R - these are files which create figures in the paper. Note that some of
+these files create .rda files, which may be used in subsequent files which create figures, or are
+loaded in the .Rnw file to spit out calculated values.
+
+

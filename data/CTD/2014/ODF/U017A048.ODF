@@ -1,0 +1,1221 @@
+ ODF_HEADER,
+   FILE_SPECIFICATION ='D:\CTD_ACQUISITION\2014017HUD\CTDDATA\U017A048.ODF'
+ CRUISE_HEADER,
+   COUNTRY_INSTITUTE_CODE=1810,
+   CRUISE_NUMBER='HUD2014017',
+   ORGANIZATION='BIO',
+   CHIEF_SCIENTIST='Blair Greenan',
+   START_DATE='17-NOV-1858 00:00:00.00',
+   END_DATE='17-NOV-1858 00:00:00.00',
+   PLATFORM='Hudson',
+   CRUISE_NAME='Sackville Spur',
+   CRUISE_DESCRIPTION='                     '
+ EVENT_HEADER,
+   DATA_TYPE='CTD',
+   EVENT_NUMBER='048',
+   EVENT_QUALIFIER1='1',
+   EVENT_QUALIFIER2='UP',
+   CREATION_DATE='27-AUG-2014 17:21:05.00',
+   ORIG_CREATION_DATE='27-AUG-2014 17:21:05.00',
+   START_DATE_TIME='11-JUL-2014 07:27:43.00',
+   END_DATE_TIME='17-NOV-1858 00:00:00.00',
+   INITIAL_LATITUDE= 47.0782,
+   INITIAL_LONGITUDE= -47.2813,
+   END_LATITUDE=-99.9000,
+   END_LONGITUDE=-999.9000,
+   MIN_DEPTH=   1.0,
+   MAX_DEPTH= 415.0,
+   SAMPLING_INTERVAL=    0.00000000,
+   SOUNDING= 405.0,
+   DEPTH_OFF_BOTTOM= -10.0,
+   EVENT_COMMENTS='CTD_1842, 403278'
+ INSTRUMENT_HEADER,
+   INST_TYPE='Sea-Bird',
+   MODEL='SBE 9 ',
+   SERIAL_NUMBER=' ',
+   DESCRIPTION='D:\CTD_ACQUISITION\2014017HUD\CTDDATA\017a048.hex D:\CTD_ACQUISITION\2014017HUD\HUD2014017_updated.con'
+ HISTORY_HEADER,
+   CREATION_DATE='27-AUG-2014 17:21:05.00',
+   PROCESS='* Sea-Bird SBE 9 Data File:',
+   PROCESS='* FileName = C:\CTD_ACQUISITION\2014017HUD\ctddata\017A048.hdr',
+   PROCESS='* Software Version Seasave V 7.22.2',
+   PROCESS='* Temperature SN = 5081',
+   PROCESS='* Conductivity SN = 3561',
+   PROCESS='* Number of Bytes Per Scan = 37',
+   PROCESS='* Number of Voltage Words = 4',
+   PROCESS='* Number of Scans Averaged by the Deck Unit = 1',
+   PROCESS='* System UpLoad Time = Jul 11 2014 07:27:48',
+   PROCESS='* NMEA Latitude = 47 04.69 N',
+   PROCESS='* NMEA Longitude = 047 16.88 W',
+   PROCESS='* NMEA UTC (Time) = Jul 11 2014 07:27:43',
+   PROCESS='* Store Lat/Lon Data = Append to Every Scan',
+   PROCESS='* SBE 11plus V 5.2',
+   PROCESS='* number of scans to average = 1',
+   PROCESS='* pressure baud rate = 9600',
+   PROCESS='* NMEA baud rate = 9600',
+   PROCESS='* Latitude/Longitude added to scan',
+   PROCESS='* GPIB address = 1',
+   PROCESS='* advance primary conductivity  0.073 seconds',
+   PROCESS='* advance secondary conductivity  0.073 seconds',
+   PROCESS='* autorun on power up is disabled',
+   PROCESS='* S>',
+   PROCESS='** Ship: Hudson',
+   PROCESS='** Cruise: HUD2014017',
+   PROCESS='** Chief_Scientist: Blair Greenan',
+   PROCESS='** Organization: BIO',
+   PROCESS='** Area_of_Operation: Sackville Spur',
+   PROCESS='** Station: 048',
+   PROCESS='** Sounding:  405',
+   PROCESS='** Event_Comments: CTD_1842, 403278',
+   PROCESS='** CTD cast ~1 Nm south of Mooring_1842',
+   PROCESS='* System UTC = Jul 11 2014 07:27:48',
+   PROCESS='* Surface_Pressure_Offset =  0.221, Temperature = 8.2328, Scan = 2767.0',
+   PROCESS='* Near_Surface_Scan = 2791.0, P = 0.351, T = 8.1706, S = 33.7107',
+   PROCESS='# nquan = 25',
+   PROCESS='# nvalues = 415',
+   PROCESS='# units = specified',
+   PROCESS='# name 0 = scan: Scan Count',
+   PROCESS='# name 1 = timeS: Time, Elapsed [seconds]',
+   PROCESS='# name 2 = prDM: Pressure, Digiquartz [db]',
+   PROCESS='# name 3 = t068C: Temperature [ITS-68, deg C]',
+   PROCESS='# name 4 = c0S/m: Conductivity [S/m]',
+   PROCESS='# name 5 = t168C: Temperature, 2 [ITS-68, deg C]',
+   PROCESS='# name 6 = c1S/m: Conductivity, 2 [S/m]',
+   PROCESS='# name 7 = altM: Altimeter [m]',
+   PROCESS='# name 8 = flC: Fluorescence, Chelsea Aqua 3 Chl Con [ug/l]',
+   PROCESS='# name 9 = sbeox0V: Oxygen raw, SBE 43 [V]',
+   PROCESS='# name 10 = sbeox1V: Oxygen raw, SBE 43, 2 [V]',
+   PROCESS='# name 11 = upoly0: Upoly 0, Optode 4330F - O2 D-Phase',
+   PROCESS='# name 12 = upoly1: Upoly 1, Optode 4330F - O2 Temp',
+   PROCESS='# name 13 = latitude: Latitude [deg]',
+   PROCESS='# name 14 = longitude: Longitude [deg]',
+   PROCESS='# name 15 = sal00: Salinity, Practical [PSU]',
+   PROCESS='# name 16 = sal11: Salinity, Practical, 2 [PSU]',
+   PROCESS='# name 17 = potemp068C: Potential Temperature [ITS-68, deg C]',
+   PROCESS='# name 18 = potemp168C: Potential Temperature, 2 [ITS-68, deg C]',
+   PROCESS='# name 19 = sigma-é00: Density [sigma-theta, Kg/m^3]',
+   PROCESS='# name 20 = sigma-é11: Density, 2 [sigma-theta, Kg/m^3]',
+   PROCESS='# name 21 = sbeox0ML/L: Oxygen, SBE 43 [ml/l], WS = 2',
+   PROCESS='# name 22 = sbeox1ML/L: Oxygen, SBE 43, 2 [ml/l], WS = 2',
+   PROCESS='# name 23 = nbin: number of scans per bin',
+   PROCESS='# name 24 = flag: flag',
+   PROCESS='# span 0 =      20409,      33040',
+   PROCESS='# span 1 =    850.338,   1376.629',
+   PROCESS='# span 2 =      1.000,    415.000',
+   PROCESS='# span 3 =    -1.6665,     8.1450',
+   PROCESS='# span 4 =   2.626218,   3.419972',
+   PROCESS='# span 5 =    -1.6656,     8.1442',
+   PROCESS='# span 6 =   2.626245,   3.419965',
+   PROCESS='# span 7 =       2.57,      99.98',
+   PROCESS='# span 8 =     0.0116,     0.2747',
+   PROCESS='# span 9 =     2.7848,     3.6995',
+   PROCESS='# span 10 =     2.4537,     3.2754',
+   PROCESS='# span 11 =  30.502335,  34.630116',
+   PROCESS='# span 12 = -1.7722763,  8.1246271',
+   PROCESS='# span 13 =   47.07712,   47.07769',
+   PROCESS='# span 14 =  -47.28051,  -47.27989',
+   PROCESS='# span 15 =    32.7107,    34.6429',
+   PROCESS='# span 16 =    32.7107,    34.6427',
+   PROCESS='# span 17 =    -1.6674,     8.1447',
+   PROCESS='# span 18 =    -1.6665,     8.1440',
+   PROCESS='# span 19 =    25.4555,    27.5809',
+   PROCESS='# span 20 =    25.4556,    27.5808',
+   PROCESS='# span 21 =    6.51660,   10.46248',
+   PROCESS='# span 22 =    6.27909,   10.82256',
+   PROCESS='# span 23 =         16,         68',
+   PROCESS='# span 24 = 0.0000e+00, 0.0000e+00',
+   PROCESS='# interval = decibars: 1',
+   PROCESS='# start_time = Jul 11 2014 07:27:43 [NMEA time, header]',
+   PROCESS='# bad_flag = -9.990e-29',
+   PROCESS='# <Sensors count="13" >',
+   PROCESS='#   <sensor Channel="1" >',
+   PROCESS='#     <!-- Frequency 0, Temperature -->',
+   PROCESS='#     <TemperatureSensor SensorID="55" >',
+   PROCESS='#       <SerialNumber>5081</SerialNumber>',
+   PROCESS='#       <CalibrationDate>14-Dec-13</CalibrationDate>',
+   PROCESS='#       <!-- t0pcor = -2.0600e-007 specified on DatCnv command line -->',
+   PROCESS='#       <UseG_J>0</UseG_J>',
+   PROCESS='#       <A>3.68121203e-003</A>',
+   PROCESS='#       <B>6.01428889e-004</B>',
+   PROCESS='#       <C>1.57189532e-005</C>',
+   PROCESS='#       <D>2.12828552e-006</D>',
+   PROCESS='#       <F0_Old>3243.100</F0_Old>',
+   PROCESS='#       <G>4.41381866e-003</G>',
+   PROCESS='#       <H>6.47037953e-004</H>',
+   PROCESS='#       <I>2.31982088e-005</I>',
+   PROCESS='#       <J>2.12678092e-006</J>',
+   PROCESS='#       <F0>1000.000</F0>',
+   PROCESS='#       <Slope>1.00000000</Slope>',
+   PROCESS='#       <Offset>0.0000</Offset>',
+   PROCESS='#     </TemperatureSensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="2" >',
+   PROCESS='#     <!-- Frequency 1, Conductivity -->',
+   PROCESS='#     <ConductivitySensor SensorID="3" >',
+   PROCESS='#       <SerialNumber>3561</SerialNumber>',
+   PROCESS='#       <CalibrationDate>19-Dec-13</CalibrationDate>',
+   PROCESS='#       <UseG_J>1</UseG_J>',
+   PROCESS='#       <!-- Cell const and series R are applicable only for wide range sensors. -->',
+   PROCESS='#       <SeriesR>0.0000</SeriesR>',
+   PROCESS='#       <CellConst>2000.0000</CellConst>',
+   PROCESS='#       <ConductivityType>0</ConductivityType>',
+   PROCESS='#       <Coefficients equation="0" >',
+   PROCESS='#         <A>0.00000000e+000</A>',
+   PROCESS='#         <B>0.00000000e+000</B>',
+   PROCESS='#         <C>0.00000000e+000</C>',
+   PROCESS='#         <D>0.00000000e+000</D>',
+   PROCESS='#         <M>0.0</M>',
+   PROCESS='#         <CPcor>-9.57000000e-008</CPcor>',
+   PROCESS='#       </Coefficients>',
+   PROCESS='#       <Coefficients equation="1" >',
+   PROCESS='#         <G>-1.03348368e+001</G>',
+   PROCESS='#         <H>1.24730604e+000</H>',
+   PROCESS='#         <I>-1.28859014e-003</I>',
+   PROCESS='#         <J>1.43705553e-004</J>',
+   PROCESS='#         <CPcor>-9.57000000e-008</CPcor>',
+   PROCESS='#         <CTcor>3.2500e-006</CTcor>',
+   PROCESS='#         <!-- WBOTC not applicable unless ConductivityType = 1. -->',
+   PROCESS='#         <WBOTC>0.00000000e+000</WBOTC>',
+   PROCESS='#       </Coefficients>',
+   PROCESS='#       <Slope>0.99960000</Slope>',
+   PROCESS='#       <Offset>0.00080</Offset>',
+   PROCESS='#     </ConductivitySensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="3" >',
+   PROCESS='#     <!-- Frequency 2, Pressure, Digiquartz with TC -->',
+   PROCESS='#     <PressureSensor SensorID="45" >',
+   PROCESS='#       <SerialNumber>69009</SerialNumber>',
+   PROCESS='#       <CalibrationDate>02-Aug-13</CalibrationDate>',
+   PROCESS='#       <C1>-5.396574e+004</C1>',
+   PROCESS='#       <C2>-1.037259e-001</C2>',
+   PROCESS='#       <C3>1.543670e-002</C3>',
+   PROCESS='#       <D1>3.880000e-002</D1>',
+   PROCESS='#       <D2>0.000000e+000</D2>',
+   PROCESS='#       <T1>2.985151e+001</T1>',
+   PROCESS='#       <T2>-3.761054e-004</T2>',
+   PROCESS='#       <T3>3.763920e-006</T3>',
+   PROCESS='#       <T4>3.187530e-009</T4>',
+   PROCESS='#       <Slope>0.99985302</Slope>',
+   PROCESS='#       <Offset>2.98281</Offset>',
+   PROCESS='#       <T5>0.000000e+000</T5>',
+   PROCESS='#       <AD590M>1.281640e-002</AD590M>',
+   PROCESS='#       <AD590B>-9.148720e+000</AD590B>',
+   PROCESS='#     </PressureSensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="4" >',
+   PROCESS='#     <!-- Frequency 3, Temperature, 2 -->',
+   PROCESS='#     <TemperatureSensor SensorID="55" >',
+   PROCESS='#       <SerialNumber>5083</SerialNumber>',
+   PROCESS='#       <CalibrationDate>14-Dec-13</CalibrationDate>',
+   PROCESS='#       <!-- t1pcor = -2.0600e-007 specified on DatCnv command line -->',
+   PROCESS='#       <UseG_J>0</UseG_J>',
+   PROCESS='#       <A>3.68121206e-003</A>',
+   PROCESS='#       <B>5.97274727e-004</B>',
+   PROCESS='#       <C>1.50445052e-005</C>',
+   PROCESS='#       <D>2.02752890e-006</D>',
+   PROCESS='#       <F0_Old>2984.779</F0_Old>',
+   PROCESS='#       <G>4.35479143e-003</G>',
+   PROCESS='#       <H>6.37242488e-004</H>',
+   PROCESS='#       <I>2.16643535e-005</I>',
+   PROCESS='#       <J>2.02609771e-006</J>',
+   PROCESS='#       <F0>1000.000</F0>',
+   PROCESS='#       <Slope>1.00000000</Slope>',
+   PROCESS='#       <Offset>0.0000</Offset>',
+   PROCESS='#     </TemperatureSensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="5" >',
+   PROCESS='#     <!-- Frequency 4, Conductivity, 2 -->',
+   PROCESS='#     <ConductivitySensor SensorID="3" >',
+   PROCESS='#       <SerialNumber>3562</SerialNumber>',
+   PROCESS='#       <CalibrationDate>19-Dec-13</CalibrationDate>',
+   PROCESS='#       <UseG_J>1</UseG_J>',
+   PROCESS='#       <!-- Cell const and series R are applicable only for wide range sensors. -->',
+   PROCESS='#       <SeriesR>0.0000</SeriesR>',
+   PROCESS='#       <CellConst>2000.0000</CellConst>',
+   PROCESS='#       <ConductivityType>0</ConductivityType>',
+   PROCESS='#       <Coefficients equation="0" >',
+   PROCESS='#         <A>0.00000000e+000</A>',
+   PROCESS='#         <B>0.00000000e+000</B>',
+   PROCESS='#         <C>0.00000000e+000</C>',
+   PROCESS='#         <D>0.00000000e+000</D>',
+   PROCESS='#         <M>0.0</M>',
+   PROCESS='#         <CPcor>-9.57000000e-008</CPcor>',
+   PROCESS='#       </Coefficients>',
+   PROCESS='#       <Coefficients equation="1" >',
+   PROCESS='#         <G>-1.02230983e+001</G>',
+   PROCESS='#         <H>1.24786569e+000</H>',
+   PROCESS='#         <I>-1.11587983e-003</I>',
+   PROCESS='#         <J>1.31995167e-004</J>',
+   PROCESS='#         <CPcor>-9.57000000e-008</CPcor>',
+   PROCESS='#         <CTcor>3.2500e-006</CTcor>',
+   PROCESS='#         <!-- WBOTC not applicable unless ConductivityType = 1. -->',
+   PROCESS='#         <WBOTC>0.00000000e+000</WBOTC>',
+   PROCESS='#       </Coefficients>',
+   PROCESS='#       <Slope>0.99940000</Slope>',
+   PROCESS='#       <Offset>0.00120</Offset>',
+   PROCESS='#     </ConductivitySensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="6" >',
+   PROCESS='#     <!-- A/D voltage 0, Altimeter -->',
+   PROCESS='#     <AltimeterSensor SensorID="0" >',
+   PROCESS='#       <SerialNumber>49559</SerialNumber>',
+   PROCESS='#       <CalibrationDate>18-Feb-2010</CalibrationDate>',
+   PROCESS='#       <ScaleFactor>15.000</ScaleFactor>',
+   PROCESS='#       <Offset>0.000</Offset>',
+   PROCESS='#     </AltimeterSensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="7" >',
+   PROCESS='#     <!-- A/D voltage 1, Fluorometer, Chelsea Aqua 3 -->',
+   PROCESS='#     <FluoroChelseaAqua3Sensor SensorID="5" >',
+   PROCESS='#       <SerialNumber>88172</SerialNumber>',
+   PROCESS='#       <CalibrationDate>19-Jan-2010</CalibrationDate>',
+   PROCESS='#       <VB>0.422400</VB>',
+   PROCESS='#       <V1>2.133900</V1>',
+   PROCESS='#       <Vacetone>0.453900</Vacetone>',
+   PROCESS='#       <ScaleFactor>1.000000</ScaleFactor>',
+   PROCESS='#       <Slope>1.000000</Slope>',
+   PROCESS='#       <Offset>0.000000</Offset>',
+   PROCESS='#     </FluoroChelseaAqua3Sensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="8" >',
+   PROCESS='#     <!-- A/D voltage 2, Oxygen, SBE 43 -->',
+   PROCESS='#     <OxygenSensor SensorID="38" >',
+   PROCESS='#       <SerialNumber>0042</SerialNumber>',
+   PROCESS='#       <CalibrationDate>27-Aug-14</CalibrationDate>',
+   PROCESS='#       <Use2007Equation>1</Use2007Equation>',
+   PROCESS='#       <CalibrationCoefficients equation="0" >',
+   PROCESS='#         <!-- Coefficients for Owens-Millard equation. -->',
+   PROCESS='#         <Boc>0.0000</Boc>',
+   PROCESS='#         <Soc>0.0000e+000</Soc>',
+   PROCESS='#         <offset>0.0000</offset>',
+   PROCESS='#         <Pcor>0.00e+000</Pcor>',
+   PROCESS='#         <Tcor>0.0000</Tcor>',
+   PROCESS='#         <Tau>0.0</Tau>',
+   PROCESS='#       </CalibrationCoefficients>',
+   PROCESS='#       <CalibrationCoefficients equation="1" >',
+   PROCESS='#         <!-- Coefficients for Sea-Bird equation - SBE calibration in 2007 and later. -->',
+   PROCESS='#         <Soc>3.6951e-001</Soc>',
+   PROCESS='#         <offset>-0.5067</offset>',
+   PROCESS='#         <A>-2.9588e-003</A>',
+   PROCESS='#         <B> 2.4892e-004</B>',
+   PROCESS='#         <C>-4.1417e-006</C>',
+   PROCESS='#         <D0> 2.5826e+000</D0>',
+   PROCESS='#         <D1> 1.92634e-004</D1>',
+   PROCESS='#         <D2>-4.64803e-002</D2>',
+   PROCESS='#         <E> 3.6000e-002</E>',
+   PROCESS='#         <Tau20> 1.6500</Tau20>',
+   PROCESS='#         <H1>-3.3000e-002</H1>',
+   PROCESS='#         <H2> 5.0000e+003</H2>',
+   PROCESS='#         <H3> 1.4500e+003</H3>',
+   PROCESS='#       </CalibrationCoefficients>',
+   PROCESS='#     </OxygenSensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="9" >',
+   PROCESS='#     <!-- A/D voltage 3, Oxygen, SBE 43, 2 -->',
+   PROCESS='#     <OxygenSensor SensorID="38" >',
+   PROCESS='#       <SerialNumber>1588</SerialNumber>',
+   PROCESS='#       <CalibrationDate>27-Aug-14</CalibrationDate>',
+   PROCESS='#       <Use2007Equation>1</Use2007Equation>',
+   PROCESS='#       <CalibrationCoefficients equation="0" >',
+   PROCESS='#         <!-- Coefficients for Owens-Millard equation. -->',
+   PROCESS='#         <Boc>0.0000</Boc>',
+   PROCESS='#         <Soc>0.0000e+000</Soc>',
+   PROCESS='#         <offset>0.0000</offset>',
+   PROCESS='#         <Pcor>0.00e+000</Pcor>',
+   PROCESS='#         <Tcor>0.0000</Tcor>',
+   PROCESS='#         <Tau>0.0</Tau>',
+   PROCESS='#       </CalibrationCoefficients>',
+   PROCESS='#       <CalibrationCoefficients equation="1" >',
+   PROCESS='#         <!-- Coefficients for Sea-Bird equation - SBE calibration in 2007 and later. -->',
+   PROCESS='#         <Soc>4.3679e-001</Soc>',
+   PROCESS='#         <offset>-0.5204</offset>',
+   PROCESS='#         <A>-3.7700e-003</A>',
+   PROCESS='#         <B> 1.7998e-004</B>',
+   PROCESS='#         <C>-2.9047e-006</C>',
+   PROCESS='#         <D0> 2.5826e+000</D0>',
+   PROCESS='#         <D1> 1.92634e-004</D1>',
+   PROCESS='#         <D2>-4.64803e-002</D2>',
+   PROCESS='#         <E> 3.6000e-002</E>',
+   PROCESS='#         <Tau20> 1.4300</Tau20>',
+   PROCESS='#         <H1>-3.3000e-002</H1>',
+   PROCESS='#         <H2> 5.0000e+003</H2>',
+   PROCESS='#         <H3> 1.4500e+003</H3>',
+   PROCESS='#       </CalibrationCoefficients>',
+   PROCESS='#     </OxygenSensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="10" >',
+   PROCESS='#     <!-- A/D voltage 4, Free -->',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="11" >',
+   PROCESS='#     <!-- A/D voltage 5, Free -->',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="12" >',
+   PROCESS='#     <!-- A/D voltage 6, User Polynomial -->',
+   PROCESS='#     <UserPolynomialSensor SensorID="61" >',
+   PROCESS='#       <SerialNumber>372</SerialNumber>',
+   PROCESS='#       <CalibrationDate>24-Jan-2014</CalibrationDate>',
+   PROCESS='#       <SensorName>Optode 4330F - O2 D-Phase</SensorName>',
+   PROCESS='#       <A0>10.00000000</A0>',
+   PROCESS='#       <A1>12.00000000</A1>',
+   PROCESS='#       <A2>0.00000000</A2>',
+   PROCESS='#       <A3>0.00000000</A3>',
+   PROCESS='#     </UserPolynomialSensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='#   <sensor Channel="13" >',
+   PROCESS='#     <!-- A/D voltage 7, User Polynomial, 2 -->',
+   PROCESS='#     <UserPolynomialSensor SensorID="61" >',
+   PROCESS='#       <SerialNumber>372</SerialNumber>',
+   PROCESS='#       <CalibrationDate>24-Jan-2014</CalibrationDate>',
+   PROCESS='#       <SensorName>Optode 4330F - O2 Temp</SensorName>',
+   PROCESS='#       <A0>-5.00000000</A0>',
+   PROCESS='#       <A1>8.00000000</A1>',
+   PROCESS='#       <A2>0.00000000</A2>',
+   PROCESS='#       <A3>0.00000000</A3>',
+   PROCESS='#     </UserPolynomialSensor>',
+   PROCESS='#   </sensor>',
+   PROCESS='# </Sensors>',
+   PROCESS='# datcnv_date = Aug 27 2014 17:04:59, 7.21f [datcnv_vars = 15]',
+   PROCESS='# datcnv_in = D:\CTD_ACQUISITION\2014017HUD\CTDDATA\017a048.hex D:\CTD_ACQUISITION\2014017HUD\HUD2014017_updated.con',
+   PROCESS='# datcnv_skipover = 4209',
+   PROCESS='# datcnv_ox_hysteresis_correction = yes',
+   PROCESS='# wildedit_date = Aug 27 2014 17:05:04, 7.21f',
+   PROCESS='# wildedit_in = D:\CTD_ACQUISITION\2014017HUD\ctddata\017a048.cnv',
+   PROCESS='# wildedit_pass1_nstd = 2.0',
+   PROCESS='# wildedit_pass2_nstd = 4.0',
+   PROCESS='# wildedit_pass2_mindelta = 0.000e+000',
+   PROCESS='# wildedit_npoint = 19',
+   PROCESS='# wildedit_vars = prDM t068C c0S/m t168C c1S/m',
+   PROCESS='# wildedit_excl_bad_scans = yes',
+   PROCESS='# filter_date = Aug 27 2014 17:05:04, 7.21f',
+   PROCESS='# filter_in = D:\CTD_ACQUISITION\2014017HUD\ctddata\017a048.cnv',
+   PROCESS='# filter_low_pass_tc_A = 0.150',
+   PROCESS='# filter_low_pass_tc_B = 0.150',
+   PROCESS='# filter_low_pass_A_vars = prDM',
+   PROCESS='# filter_low_pass_B_vars = t068C c0S/m t168C c1S/m',
+   PROCESS='# alignctd_date = Aug 27 2014 17:05:04, 7.21f',
+   PROCESS='# alignctd_in = D:\CTD_ACQUISITION\2014017HUD\ctddata\017a048.cnv',
+   PROCESS='# alignctd_adv = c0S/m -0.010, c1S/m -0.010, sbeox0V 8.000, sbeox1V 8.000',
+   PROCESS='# celltm_date = Aug 27 2014 17:05:04, 7.21f',
+   PROCESS='# celltm_in = D:\CTD_ACQUISITION\2014017HUD\ctddata\017a048.cnv',
+   PROCESS='# celltm_alpha = 0.0300, 0.0300',
+   PROCESS='# celltm_tau = 7.0000, 7.0000',
+   PROCESS='# celltm_temp_sensor_use_for_cond = primary, secondary',
+   PROCESS='# Derive_date = Aug 27 2014 17:05:04, 7.21f [derive_vars = 8]',
+   PROCESS='# Derive_in = D:\CTD_ACQUISITION\2014017HUD\ctddata\017a048.cnv D:\CTD_ACQUISITION\2014017HUD\HUD2014017_updated.con',
+   PROCESS='# derive_time_window_docdt = seconds: 2',
+   PROCESS='# derive_ox_tau_correction = yes',
+   PROCESS='# loopedit_date = Aug 27 2014 17:05:05, 7.21f',
+   PROCESS='# loopedit_in = D:\CTD_ACQUISITION\2014017HUD\ctddata\017a048.cnv',
+   PROCESS='# loopedit_minVelocity = 0.050',
+   PROCESS='# loopedit_surfaceSoak: minDepth = 5.0, maxDepth = 20, useDeckPress = 1',
+   PROCESS='# loopedit_excl_bad_scans = yes',
+   PROCESS='# binavg_date = Aug 27 2014 17:05:05, 7.21f',
+   PROCESS='# binavg_in = D:\CTD_ACQUISITION\2014017HUD\ctddata\017a048.cnv',
+   PROCESS='# binavg_bintype = decibars',
+   PROCESS='# binavg_binsize = 1',
+   PROCESS='# binavg_excl_bad_scans = yes',
+   PROCESS='# binavg_skipover = 0',
+   PROCESS='# binavg_surface_bin = no, min = 0.000, max = 0.000, value = 0.000',
+   PROCESS='# split_date = Aug 27 2014 17:05:05, 7.21f',
+   PROCESS='# split_in = D:\CTD_ACQUISITION\2014017HUD\ctddata\017a048.cnv',
+   PROCESS='# split_excl_bad_scans = yes',
+   PROCESS='# file_type = ascii',
+   PROCESS='*END*'
+ HISTORY_HEADER,
+   CREATION_DATE='27-AUG-2014 17:21:05.00',
+   PROCESS='During the creation of the ODF file, 0 records flagged bad have been removed.' 
+ PARAMETER_HEADER,
+   TYPE='INTE',
+   NAME='CNTR_01',
+   CODE='CNTR_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     0,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 2.04090000000000E+04,
+   MAXIMUM_VALUE= 3.30400000000000E+04,
+   NUMBER_VALID=         415,
+   NUMBER_NULL=           0
+   UNITS='',
+ PARAMETER_HEADER,
+   TYPE='SYTM',
+   NAME='SYTM_01',
+   CODE='SYTM_01',
+   NULL_VALUE='17-NOV-1858 00:00:00.00',
+   PRINT_FIELD_WIDTH=    27,
+   PRINT_DECIMAL_PLACES=     0,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE='11-JUL-2014 07:41:53.34',
+   MAXIMUM_VALUE='11-JUL-2014 07:50:39.63',
+   NUMBER_VALID=         415,
+   NUMBER_NULL=           0
+   UNITS='seconds',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='PRES_01',
+   CODE='PRES_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     3,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 1.00000000000000E+00,
+   MAXIMUM_VALUE= 4.15000000000000E+02,
+   NUMBER_VALID=         415,
+   NUMBER_NULL=           0
+   UNITS='db',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='TEMP_01',
+   CODE='TEMP_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE=-1.66650000000000E+00,
+   MAXIMUM_VALUE= 8.14500000000000E+00,
+   NUMBER_VALID=         415,
+   NUMBER_NULL=           0
+   UNITS='ITS-68, deg C',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='CRAT_01',
+   CODE='CRAT_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     6,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 6.11972316726476E-01,
+   MAXIMUM_VALUE= 7.96936197977350E-01,
+   NUMBER_VALID=         415,
+   NUMBER_NULL=           0
+   UNITS='S/m',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='TEMP_02',
+   CODE='TEMP_02',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE=-1.66560000000000E+00,
+   MAXIMUM_VALUE= 8.14420000000000E+00,
+   NUMBER_VALID=         415,
+   NUMBER_NULL=           0
+   UNITS='ITS-68, deg C',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='CRAT_02',
+   CODE='CRAT_02',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     6,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 6.11978608379550E-01,
+   MAXIMUM_VALUE= 7.96934566808035E-01,
+   NUMBER_VALID=         415,
+   NUMBER_NULL=           0
+   UNITS='S/m',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='ALT_01',
+   CODE='ALTB_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     2,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 2.57000000000000E+00,
+   MAXIMUM_VALUE= 9.99800000000000E+01,
+   NUMBER_VALID=         415,
+   NUMBER_NULL=           0
+   UNITS='m',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='FC_01',
+   CODE='FLOR_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    12,
+   PRINT_DECIMAL_PLACES=     5,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 1.16000000000000E-02,
+   MAXIMUM_VALUE= 2.74700000000000E-01,
+   NUMBER_VALID=         415,
+   NUMBER_NULL=           0
+   UNITS='ug/l',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='OXYV_01',
+   CODE='OXYV_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 2.78480000000000E+00,
+   MAXIMUM_VALUE= 3.69950000000000E+00,
+   NUMBER_VALID=         415,
+   NUMBER_NULL=           0
+   UNITS='V',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='OXYV_02',
+   CODE='OXYV_02',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 2.45370000000000E+00,
+   MAXIMUM_VALUE= 3.27540000000000E+00,
+   NUMBER_VALID=         415,
+   NUMBER_NULL=           0
+   UNITS='V',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='upoly0',
+   CODE='UNKN',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    12,
+   PRINT_DECIMAL_PLACES=     6,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 3.05023350000000E+01,
+   MAXIMUM_VALUE= 3.46301160000000E+01,
+   NUMBER_VALID=         415,
+   NUMBER_NULL=           0
+   UNITS='',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='upoly1',
+   CODE='UNKN',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    13,
+   PRINT_DECIMAL_PLACES=     7,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE=-1.77227630000000E+00,
+   MAXIMUM_VALUE= 8.12462710000000E+00,
+   NUMBER_VALID=         415,
+   NUMBER_NULL=           0
+   UNITS='',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='LATD_01',
+   CODE='LATD_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    13,
+   PRINT_DECIMAL_PLACES=     5,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 4.70771200000000E+01,
+   MAXIMUM_VALUE= 4.70776900000000E+01,
+   NUMBER_VALID=         415,
+   NUMBER_NULL=           0
+   UNITS='deg',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='LOND_01',
+   CODE='LOND_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    14,
+   PRINT_DECIMAL_PLACES=     5,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE=-4.72805100000000E+01,
+   MAXIMUM_VALUE=-4.72798900000000E+01,
+   NUMBER_VALID=         415,
+   NUMBER_NULL=           0
+   UNITS='deg',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='PSAL_01',
+   CODE='PSAL_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 3.27107000000000E+01,
+   MAXIMUM_VALUE= 3.46429000000000E+01,
+   NUMBER_VALID=         415,
+   NUMBER_NULL=           0
+   UNITS='PSU',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='PSAL_02',
+   CODE='PSAL_02',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 3.27107000000000E+01,
+   MAXIMUM_VALUE= 3.46427000000000E+01,
+   NUMBER_VALID=         415,
+   NUMBER_NULL=           0
+   UNITS='PSU',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='POTM_01',
+   CODE='POTM_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE=-1.66740000000000E+00,
+   MAXIMUM_VALUE= 8.14470000000000E+00,
+   NUMBER_VALID=         415,
+   NUMBER_NULL=           0
+   UNITS='ITS-68, deg C',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='POTM_02',
+   CODE='POTM_02',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE=-1.66650000000000E+00,
+   MAXIMUM_VALUE= 8.14400000000000E+00,
+   NUMBER_VALID=         415,
+   NUMBER_NULL=           0
+   UNITS='ITS-68, deg C',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='SIGP_01',
+   CODE='SIGP_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 2.54555000000000E+01,
+   MAXIMUM_VALUE= 2.75809000000000E+01,
+   NUMBER_VALID=         415,
+   NUMBER_NULL=           0
+   UNITS='sigma-theta, Kg/m^3',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='SIGP_02',
+   CODE='SIGP_02',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     4,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 2.54556000000000E+01,
+   MAXIMUM_VALUE= 2.75808000000000E+01,
+   NUMBER_VALID=         415,
+   NUMBER_NULL=           0
+   UNITS='sigma-theta, Kg/m^3',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='DOXY_01',
+   CODE='DOXY_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     5,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 6.51660000000000E+00,
+   MAXIMUM_VALUE= 1.04624800000000E+01,
+   NUMBER_VALID=         415,
+   NUMBER_NULL=           0
+   UNITS='ml/l',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='DOXY_02',
+   CODE='DOXY_02',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     5,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 6.27909000000000E+00,
+   MAXIMUM_VALUE= 1.08225600000000E+01,
+   NUMBER_VALID=         415,
+   NUMBER_NULL=           0
+   UNITS='ml/l',
+ PARAMETER_HEADER,
+   TYPE='INTE',
+   NAME='SNCNTR_01',
+   CODE='CNTR_02',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=    11,
+   PRINT_DECIMAL_PLACES=     0,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 1.60000000000000E+01,
+   MAXIMUM_VALUE= 6.80000000000000E+01,
+   NUMBER_VALID=         415,
+   NUMBER_NULL=           0
+   UNITS='',
+ PARAMETER_HEADER,
+   TYPE='DOUB',
+   NAME='FFFF_01',
+   CODE='FFFF_01',
+   NULL_VALUE=  -99.00000000,
+   PRINT_FIELD_WIDTH=     6,
+   PRINT_DECIMAL_PLACES=     1,
+   ANGLE_OF_SECTION= 0.00000000000000E+00,
+   MAGNETIC_VARIATION= 0.00000000000000E+00,
+   DEPTH= 0.00000000000000E+00,
+   MINIMUM_VALUE= 0.00000000000000E+00,
+   MAXIMUM_VALUE= 0.00000000000000E+00,
+   NUMBER_VALID=         415,
+   NUMBER_NULL=           0
+   UNITS='',
+ RECORD_HEADER,
+   NUM_HISTORY=     1,
+   NUM_CYCLE=   415,
+   NUM_PARAM=    25
+-- DATA --
+      20409   '11-JUL-2014 07:41:53.34'    415.000     3.2314   0.740097     3.2317   0.740098       5.45     0.02450     2.8090     2.4806   33.936977    3.2372174     47.07769     -47.28051    34.6426    34.6424     3.2043     3.2045    27.5808    27.5806    6.59638    6.62039         68   0.0
+      20513   '11-JUL-2014 07:41:57.69'    414.000     3.2302   0.740053     3.2301   0.740049       6.39     0.02490     2.8091     2.4810   33.930977    3.2306409     47.07768     -47.28050    34.6421    34.6421     3.2031     3.2030    27.5806    27.5806    6.59727    6.61459         46   0.0
+      20545   '11-JUL-2014 07:41:58.99'    413.000     3.2336   0.740128     3.2332   0.740114       7.26     0.02260     2.8090     2.4800   33.928215    3.2248254     47.07768     -47.28050    34.6429    34.6427     3.2066     3.2062    27.5809    27.5808    6.59604    6.60918         28   0.0
+      20570   '11-JUL-2014 07:42:00.03'    412.000     3.2257   0.739909     3.2261   0.739904       8.09     0.02110     2.8093     2.4796   33.937164    3.2299821     47.07768     -47.28050    34.6405    34.6399     3.1988     3.1992    27.5797    27.5791    6.59552    6.60650         24   0.0
+      20594   '11-JUL-2014 07:42:01.04'    411.000     3.2200   0.739747     3.2187   0.739702       9.04     0.02240     2.8086     2.4789   33.935532    3.2309146     47.07768     -47.28050    34.6388    34.6378     3.1932     3.1919    27.5789    27.5782    6.58643    6.60256         25   0.0
+      20620   '11-JUL-2014 07:42:02.12'    410.000     3.2166   0.739649     3.2130   0.739539      10.07     0.02770     2.8081     2.4783   33.927834    3.2362356     47.07766     -47.28050    34.6378    34.6360     3.1899     3.1862    27.5784    27.5773    6.58908    6.60587         27   0.0
+      20648   '11-JUL-2014 07:42:03.28'    409.000     3.2141   0.739569     3.2102   0.739456      11.07     0.02550     2.8076     2.4784   33.927265    3.2317786     47.07766     -47.28050    34.6369    34.6352     3.1875     3.1835    27.5779    27.5769    6.58806    6.60682         27   0.0
+      20673   '11-JUL-2014 07:42:04.32'    408.000     3.2118   0.739499     3.2077   0.739378      12.02     0.02320     2.8071     2.4777   33.926735    3.2254324     47.07766     -47.28050    34.6362    34.6343     3.1853     3.1812    27.5775    27.5764    6.58445    6.59939         24   0.0
+      20696   '11-JUL-2014 07:42:05.28'    407.000     3.2071   0.739360     3.2043   0.739278      13.00     0.02610     2.8073     2.4777   33.926739    3.2246771     47.07766     -47.28050    34.6346    34.6333     3.1806     3.1778    27.5767    27.5759    6.59963    6.61222         23   0.0
+      20719   '11-JUL-2014 07:42:06.26'    406.000     3.2025   0.739231     3.1993   0.739135      13.99     0.02670     2.8082     2.4785   33.926739    3.2246642     47.07766     -47.28050    34.6334    34.6318     3.1761     3.1729    27.5762    27.5752    6.60346    6.61509         24   0.0
+      20744   '11-JUL-2014 07:42:07.29'    405.000     3.2005   0.739167     3.1973   0.739075      15.03     0.02320     2.8091     2.4788   33.934956    3.2246642     47.07766     -47.28048    34.6327    34.6313     3.1742     3.1710    27.5758    27.5750    6.59993    6.60944         25   0.0
+      20769   '11-JUL-2014 07:42:08.33'    404.000     3.1990   0.739119     3.1969   0.739056      16.02     0.02290     2.8094     2.4786   33.946629    3.2246642     47.07766     -47.28048    34.6324    34.6313     3.1727     3.1716    27.5757    27.5750    6.59533    6.60520         25   0.0
+      20792   '11-JUL-2014 07:42:09.30'    403.000     3.1983   0.739089     3.1973   0.739058      16.96     0.02220     2.8091     2.4785   33.937481    3.2211456     47.07766     -47.28048    34.6321    34.6315     3.1721     3.1712    27.5755    27.5751    6.59543    6.61507         22   0.0
+      20813   '11-JUL-2014 07:42:10.18'    402.000     3.1961   0.739019     3.1915   0.738893      17.78     0.02180     2.8096     2.4797   33.926865    3.2149706     47.07766     -47.28048    34.6313    34.6296     3.1700     3.1654    27.5751    27.5742    6.60223    6.63453         20   0.0
+      20833   '11-JUL-2014 07:42:11.01'    401.000     3.1885   0.738810     3.1823   0.738644      18.83     0.02030     2.8102     2.4821   33.926739    3.2148962     47.07766     -47.28048    34.6292    34.6271     3.1625     3.1563    27.5741    27.5730    6.61012    6.64743         20   0.0
+      20854   '11-JUL-2014 07:42:11.89'    400.000     3.1833   0.738671     3.1798   0.738570      19.78     0.02100     2.8116     2.4839   33.944622    3.2148962     47.07766     -47.28048    34.6280    34.6264     3.1573     3.1539    27.5736    27.5727    6.61818    6.65269         22   0.0
+      20878   '11-JUL-2014 07:42:12.87'    399.000     3.1798   0.738566     3.1739   0.738397      20.63     0.02550     2.8135     2.4866   33.945488    3.2148962     47.07766     -47.28048    34.6268    34.6243     3.1539     3.1480    27.5730    27.5716    6.63380    6.66250         25   0.0
+      20903   '11-JUL-2014 07:42:13.93'    398.000     3.1766   0.738472     3.1686   0.738241      21.37     0.02140     2.8163     2.4887   33.949253    3.2055762     47.07766     -47.28048    34.6258    34.6224     3.1509     3.1428    27.5725    27.5705    6.64361    6.66729         26   0.0
+      20930   '11-JUL-2014 07:42:15.04'    397.000     3.1738   0.738387     3.1711   0.738267      22.05     0.02260     2.8194     2.4917   33.948448    3.2044101     47.07764     -47.28048    34.6250    34.6216     3.1481     3.1455    27.5721    27.5696    6.65517    6.67982         27   0.0
+      20956   '11-JUL-2014 07:42:16.13'    396.000     3.1719   0.738312     3.1756   0.738350      23.55     0.02230     2.8226     2.4940   33.943104    3.2011933     47.07764     -47.28048    34.6236    34.6217     3.1463     3.1499    27.5711    27.5693    6.65401    6.67657         25   0.0
+      20980   '11-JUL-2014 07:42:17.13'    395.000     3.1741   0.738328     3.1793   0.738413      24.72     0.02480     2.8242     2.4953   33.945877    3.1995921     47.07764     -47.28046    34.6227    34.6216     3.1485     3.1537    27.5702    27.5688    6.66375    6.67675         23   0.0
+      21002   '11-JUL-2014 07:42:18.03'    394.000     3.1793   0.738410     3.1801   0.738423      25.71     0.02480     2.8272     2.4965   33.939877    3.1953237     47.07764     -47.28048    34.6219    34.6217     3.1538     3.1546    27.5691    27.5689    6.67486    6.67314         20   0.0
+      21021   '11-JUL-2014 07:42:18.85'    393.000     3.1803   0.738422     3.1806   0.738422      26.65     0.02110     2.8291     2.4967   33.942108    3.1953602     47.07763     -47.28047    34.6220    34.6218     3.1549     3.1551    27.5691    27.5689    6.66576    6.65911         20   0.0
+      21041   '11-JUL-2014 07:42:19.67'    392.000     3.1810   0.738423     3.1805   0.738398      27.64     0.02010     2.8304     2.4959   33.942837    3.1953602     47.07762     -47.28046    34.6219    34.6212     3.1556     3.1551    27.5689    27.5684    6.66086    6.64841         20   0.0
+      21063   '11-JUL-2014 07:42:20.58'    391.000     3.1806   0.738402     3.1757   0.738245      28.53     0.01840     2.8305     2.4948   33.945839    3.1953602     47.07762     -47.28046    34.6218    34.6188     3.1553     3.1504    27.5689    27.5669    6.64071    6.63365         23   0.0
+      21088   '11-JUL-2014 07:42:21.63'    390.000     3.1787   0.738334     3.1710   0.738103      29.67     0.01790     2.8293     2.4922   33.928329    3.1953602     47.07762     -47.28046    34.6208    34.6172     3.1535     3.1458    27.5682    27.5661    6.62254    6.61983         27   0.0
+      21115   '11-JUL-2014 07:42:22.74'    389.000     3.1763   0.738257     3.1659   0.737958      30.69     0.02040     2.8258     2.4900   33.920280    3.1953602     47.07762     -47.28046    34.6200    34.6154     3.1511     3.1408    27.5678    27.5651    6.59885    6.61758         27   0.0
+      21141   '11-JUL-2014 07:42:23.83'    388.000     3.1721   0.738139     3.1490   0.737500      31.81     0.02010     2.8235     2.4883   33.916222    3.1949725     47.07762     -47.28046    34.6187    34.6102     3.1471     3.1240    27.5672    27.5625    6.61153    6.61866         25   0.0
+      21165   '11-JUL-2014 07:42:24.81'    387.000     3.1618   0.737831     3.1230   0.736811      32.78     0.01910     2.8222     2.4873   33.916084    3.1944714     47.07762     -47.28046    34.6143    34.6026     3.1368     3.0982    27.5646    27.5589    6.60797    6.61999         22   0.0
+      21187   '11-JUL-2014 07:42:25.76'    386.000     3.1331   0.737030     3.1036   0.736318      33.76     0.01810     2.8206     2.4864   33.909473    3.1872194     47.07762     -47.28046    34.6038    34.5982     3.1083     3.0789    27.5589    27.5572    6.61080    6.61436         23   0.0
+      21209   '11-JUL-2014 07:42:26.68'    385.000     3.1089   0.736465     3.0955   0.736106      34.63     0.02080     2.8200     2.4845   33.911411    3.1855729     47.07762     -47.28046    34.6008    34.5964     3.0843     3.0709    27.5587    27.5564    6.61109    6.61512         21   0.0
+      21230   '11-JUL-2014 07:42:27.55'    384.000     3.0990   0.736185     3.0892   0.735932      35.58     0.01840     2.8184     2.4842   33.915611    3.1794939     47.07762     -47.28046    34.5973    34.5945     3.0745     3.0647    27.5568    27.5555    6.61201    6.62357         21   0.0
+      21251   '11-JUL-2014 07:42:28.41'    383.000     3.0900   0.735945     3.0803   0.735690      36.63     0.02090     2.8179     2.4836   33.919056    3.1758316     47.07762     -47.28046    34.5950    34.5920     3.0656     3.0559    27.5558    27.5543    6.61162    6.62149         21   0.0
+      21273   '11-JUL-2014 07:42:29.32'    382.000     3.0831   0.735765     3.0701   0.735413      37.72     0.02290     2.8170     2.4832   33.919724    3.1636565     47.07762     -47.28044    34.5935    34.5890     3.0588     3.0458    27.5552    27.5529    6.61316    6.62584         23   0.0
+      21297   '11-JUL-2014 07:42:30.34'    381.000     3.0769   0.735588     3.0645   0.735266      38.80     0.01930     2.8167     2.4833   33.921635    3.1468079     47.07762     -47.28044    34.5913    34.5879     3.0528     3.0403    27.5540    27.5525    6.61289    6.62884         26   0.0
+      21325   '11-JUL-2014 07:42:31.49'    380.000     3.0678   0.735358     3.0625   0.735206      39.90     0.02090     2.8158     2.4833   33.917816    3.1356351     47.07762     -47.28044    34.5898    34.5875     3.0436     3.0383    27.5537    27.5523    6.60876    6.62561         28   0.0
+      21352   '11-JUL-2014 07:42:32.63'    379.000     3.0653   0.735283     3.0612   0.735165      40.93     0.02060     2.8149     2.4822   33.919453    3.1267712     47.07762     -47.28044    34.5890    34.5872     3.0412     3.0371    27.5533    27.5522    6.60812    6.60717         26   0.0
+      21376   '11-JUL-2014 07:42:33.63'    378.000     3.0636   0.735231     3.0603   0.735135      41.85     0.02250     2.8144     2.4808   33.925522    3.1201246     47.07762     -47.28044    34.5887    34.5872     3.0395     3.0363    27.5532    27.5523    6.61187    6.61411         23   0.0
+      21398   '11-JUL-2014 07:42:34.53'    377.000     3.0615   0.735154     3.0592   0.735097      42.80     0.02100     2.8149     2.4810   33.926746    3.1171992     47.07762     -47.28044    34.5875    34.5870     3.0375     3.0352    27.5524    27.5522    6.61253    6.62190         20   0.0
+      21418   '11-JUL-2014 07:42:35.38'    376.000     3.0604   0.735122     3.0584   0.735070      43.74     0.02220     2.8142     2.4811   33.935894    3.1129906     47.07762     -47.28044    34.5875    34.5869     3.0365     3.0345    27.5525    27.5522    6.60992    6.62605         21   0.0
+      21440   '11-JUL-2014 07:42:36.29'    375.000     3.0593   0.735085     3.0583   0.735059      44.74     0.02240     2.8148     2.4820   33.945824    3.1074624     47.07762     -47.28044    34.5873    34.5870     3.0355     3.0345    27.5524    27.5523    6.61811    6.63590         23   0.0
+      21464   '11-JUL-2014 07:42:37.31'    374.000     3.0587   0.735065     3.0577   0.735034      45.83     0.01920     2.8151     2.4836   33.945900    3.1059470     47.07762     -47.28044    34.5873    34.5869     3.0350     3.0339    27.5525    27.5522    6.62060    6.64154         26   0.0
+      21490   '11-JUL-2014 07:42:38.38'    373.000     3.0575   0.735030     3.0569   0.734999      46.87     0.01800     2.8166     2.4844   33.944317    3.1039257     47.07762     -47.28042    34.5873    34.5865     3.0338     3.0332    27.5526    27.5521    6.63504    6.63664         25   0.0
+      21514   '11-JUL-2014 07:42:39.36'    372.000     3.0578   0.735018     3.0567   0.734980      47.74     0.02000     2.8181     2.4853   33.943390    3.1003413     47.07762     -47.28042    34.5870    34.5863     3.0342     3.0330    27.5524    27.5519    6.63948    6.64766         22   0.0
+      21535   '11-JUL-2014 07:42:40.24'    371.000     3.0575   0.734998     3.0571   0.734977      48.68     0.02260     2.8202     2.4871   33.942852    3.0976543     47.07762     -47.28042    34.5868    34.5862     3.0340     3.0335    27.5522    27.5518    6.64918    6.65957         20   0.0
+      21555   '11-JUL-2014 07:42:41.08'    370.000     3.0574   0.734981     3.0569   0.734968      49.69     0.02170     2.8219     2.4890   33.939869    3.0966837     47.07762     -47.28042    34.5866    34.5865     3.0339     3.0334    27.5520    27.5520    6.64845    6.67497         20   0.0
+      21575   '11-JUL-2014 07:42:41.93'    369.000     3.0583   0.734995     3.0587   0.735006      50.67     0.02110     2.8234     2.4918   33.949322    3.0879700     47.07762     -47.28042    34.5869    34.5871     3.0349     3.0363    27.5522    27.5523    6.65811    6.68576         22   0.0
+      21599   '11-JUL-2014 07:42:42.91'    368.000     3.0605   0.735037     3.0636   0.735114      51.62     0.01940     2.8266     2.4950   33.949284    3.0879121     47.07762     -47.28042    34.5873    34.5880     3.0371     3.0403    27.5523    27.5526    6.68930    6.70103         26   0.0
+      21627   '11-JUL-2014 07:42:44.09'    367.000     3.0672   0.735163     3.0687   0.735204      52.79     0.01560     2.8326     2.4997   33.955933    3.0863109     47.07762     -47.28042    34.5873    34.5878     3.0439     3.0454    27.5516    27.5520    6.70633    6.71731         30   0.0
+      21656   '11-JUL-2014 07:42:45.30'    366.000     3.0668   0.735153     3.0698   0.735208      53.85     0.01780     2.8378     2.5039   33.954952    3.0879223     47.07760     -47.28041    34.5878    34.5874     3.0435     3.0465    27.5521    27.5515    6.71581    6.72184         27   0.0
+      21682   '11-JUL-2014 07:42:46.38'    365.000     3.0696   0.735189     3.0738   0.735268      54.63     0.02360     2.8419     2.5068   33.947342    2.8195198     47.07762     -47.28038    34.5872    34.5869     3.0464     3.0505    27.5514    27.5507    6.70712    6.72058         24   0.0
+      21705   '11-JUL-2014 07:42:47.34'    364.000     3.0814   0.735426     3.0917   0.735654      74.22     0.02140     2.8432     2.5087   33.948067    2.4999638     47.07762     -47.28038    34.5875    34.5883     3.0582     3.0685    27.5505    27.5502    6.70117    6.71191         22   0.0
+      21726   '11-JUL-2014 07:42:48.22'    363.000     3.1041   0.735885     3.1103   0.736072      26.78     0.01890     2.8459     2.5090   33.947666    2.4055991     47.07762     -47.28040    34.5876    34.5908     3.0810     3.0871    27.5485    27.5505    6.71385    6.69097         21   0.0
+      21746   '11-JUL-2014 07:42:49.04'    362.000     3.1210   0.736267     3.1252   0.736389      58.22     0.01850     2.8478     2.5084   33.942932    2.4231820     47.07762     -47.28040    34.5901    34.5919     3.0979     3.1020    27.5489    27.5500    6.69421    6.67761         19   0.0
+      21766   '11-JUL-2014 07:42:49.87'    361.000     3.1259   0.736364     3.1276   0.736370      58.59     0.01750     2.8473     2.5075   33.926517    2.4078522     47.07762     -47.28040    34.5904    34.5890     3.1028     3.1045    27.5487    27.5474    6.66925    6.67239         20   0.0
+      21787   '11-JUL-2014 07:42:50.75'    360.000     3.1261   0.736331     3.1254   0.736251      59.47     0.01990     2.8459     2.5068   33.926739    2.4570661     47.07762     -47.28040    34.5890    34.5857     3.1031     3.1023    27.5476    27.5450    6.64880    6.66686         23   0.0
+      21810   '11-JUL-2014 07:42:51.72'    359.000     3.1212   0.736138     3.1183   0.735997      42.24     0.02220     2.8430     2.5052   33.914654    2.4236238     47.07762     -47.28040    34.5850    34.5806     3.0981     3.0953    27.5448    27.5416    6.65010    6.65052         24   0.0
+      21834   '11-JUL-2014 07:42:52.72'    358.000     3.1215   0.736122     3.0941   0.735327      66.45     0.02260     2.8424     2.5025   33.914635    2.4891422     47.07762     -47.28040    34.5841    34.5720     3.0987     3.0713    27.5441    27.5370    6.65033    6.63480         23   0.0
+      21857   '11-JUL-2014 07:42:53.67'    357.000     3.0975   0.735561     3.0566   0.734425      99.37     0.02470     2.8400     2.4999   33.897724    2.4531004     47.07762     -47.28040    34.5811    34.5656     3.0748     3.0340    27.5439    27.5352    6.63061    6.61624         22   0.0
+      21879   '11-JUL-2014 07:42:54.57'    356.000     3.0664   0.734745     3.0246   0.733629      63.66     0.02270     2.8376     2.4957   33.887360    2.4556694     47.07762     -47.28040    34.5724    34.5588     3.0438     3.0021    27.5398    27.5328    6.63210    6.60665         22   0.0
+      21901   '11-JUL-2014 07:42:55.52'    355.000     3.0311   0.733836     3.0043   0.733150      36.91     0.02330     2.8351     2.4923   33.891308    2.4250729     47.07762     -47.28040    34.5630    34.5560     3.0087     2.9819    27.5355    27.5324    6.62022    6.59868         24   0.0
+      21927   '11-JUL-2014 07:42:56.58'    354.000     3.0129   0.733391     2.9906   0.732816      59.44     0.02070     2.8307     2.4876   33.889839    2.4580238     47.07762     -47.28038    34.5599    34.5537     2.9907     2.9684    27.5347    27.5318    6.60097    6.58804         27   0.0
+      21954   '11-JUL-2014 07:42:57.69'    353.000     2.9976   0.733012     2.9755   0.732455      61.62     0.02060     2.8254     2.4840   33.896317    2.3867800     47.07762     -47.28038    34.5570    34.5516     2.9755     2.9534    27.5338    27.5314    6.58689    6.58881         26   0.0
+      21978   '11-JUL-2014 07:42:58.72'    352.000     2.9771   0.732509     2.9559   0.731965      51.38     0.02090     2.8218     2.4812   33.896820    2.4347057     47.07762     -47.28038    34.5532    34.5475     2.9551     2.9339    27.5326    27.5300    6.58961    6.58610         24   0.0
+      22003   '11-JUL-2014 07:42:59.74'    351.000     2.9649   0.732154     2.9238   0.731179      98.22     0.02180     2.8180     2.4787   33.897427    2.3835905     47.07762     -47.28038    34.5483    34.5412     2.9430     2.9020    27.5297    27.5278    6.58020    6.58483         25   0.0
+      22027   '11-JUL-2014 07:43:00.77'    350.000     2.9362   0.731505     2.8930   0.730443      72.54     0.02210     2.8148     2.4767   33.896824    2.4191213     47.07762     -47.28038    34.5456    34.5362     2.9144     2.8713    27.5302    27.5266    6.58288    6.58404         24   0.0
+      22051   '11-JUL-2014 07:43:01.74'    349.000     2.9068   0.730815     2.8753   0.730029      63.17     0.02270     2.8125     2.4747   33.897442    2.4084396     47.07762     -47.28038    34.5414    34.5339     2.8852     2.8538    27.5295    27.5264    6.58133    6.57981         22   0.0
+      22071   '11-JUL-2014 07:43:02.60'    348.000     2.8815   0.730179     2.8640   0.729754      44.74     0.02390     2.8099     2.4728   33.897434    2.4764140     47.07762     -47.28038    34.5358    34.5322     2.8600     2.8426    27.5273    27.5259    6.57178    6.57829         20   0.0
+      22091   '11-JUL-2014 07:43:03.42'    347.000     2.8672   0.729837     2.8574   0.729585      92.78     0.02160     2.8070     2.4712   33.908237    2.4384992     47.07762     -47.28038    34.5337    34.5309     2.8457     2.8361    27.5269    27.5255    6.57586    6.58071         20   0.0
+      22112   '11-JUL-2014 07:43:04.29'    346.000     2.8593   0.729631     2.8519   0.729447      98.48     0.01890     2.8063     2.4698   33.921009    2.4137959     47.07762     -47.28038    34.5319    34.5302     2.8380     2.8306    27.5261    27.5254    6.58294    6.57846         22   0.0
+      22136   '11-JUL-2014 07:43:05.28'    345.000     2.8528   0.729469     2.8472   0.729327      39.67     0.02010     2.8037     2.4689   33.934261    2.3802950     47.07762     -47.28038    34.5309    34.5294     2.8316     2.8268    27.5259    27.5252    6.57563    6.58459         26   0.0
+      22163   '11-JUL-2014 07:43:06.43'    344.000     2.8497   0.729387     2.8442   0.729249      98.31     0.02250     2.8034     2.4685   33.947079    2.3911803     47.07762     -47.28038    34.5305    34.5291     2.8285     2.8230    27.5259    27.5253    6.59024    6.59022         28   0.0
+      22191   '11-JUL-2014 07:43:07.57'    343.000     2.8447   0.729278     2.8407   0.729156      78.12     0.02230     2.8030     2.4687   33.965183    2.3338833     47.07762     -47.28038    34.5305    34.5286     2.8236     2.8196    27.5263    27.5252    6.58861    6.59222         26   0.0
+      22214   '11-JUL-2014 07:43:08.55'    342.000     2.8428   0.729216     2.8314   0.728908      31.17     0.02620     2.8032     2.4686   33.973297    2.3436947     47.07762     -47.28038    34.5299    34.5260     2.8218     2.8105    27.5260    27.5239    6.59051    6.59020         22   0.0
+      22235   '11-JUL-2014 07:43:09.43'    341.000     2.8272   0.728815     2.8151   0.728470      88.55     0.02600     2.8030     2.4687   33.984489    2.3252399     47.07762     -47.28038    34.5262    34.5211     2.8063     2.7942    27.5244    27.5214    6.59061    6.59567         20   0.0
+      22255   '11-JUL-2014 07:43:10.25'    340.000     2.8113   0.728388     2.8056   0.728231      98.62     0.01950     2.8028     2.4691   33.992275    2.3203590     47.07762     -47.28038    34.5214    34.5192     2.7905     2.7848    27.5220    27.5207    6.59455    6.60404         19   0.0
+      22275   '11-JUL-2014 07:43:11.08'    339.000     2.8064   0.728250     2.8015   0.728117      29.59     0.01970     2.8031     2.4697   33.995098    2.3537169     47.07760     -47.28038    34.5199    34.5181     2.7857     2.7808    27.5212    27.5202    6.59666    6.60397         21   0.0
+      22296   '11-JUL-2014 07:43:11.96'    338.000     2.8029   0.728148     2.7969   0.727985      81.70     0.02130     2.8034     2.4700   34.021957    2.3660991     47.07760     -47.28036    34.5189    34.5167     2.7823     2.7763    27.5207    27.5195    6.59685    6.60539         22   0.0
+      22319   '11-JUL-2014 07:43:12.93'    337.000     2.7988   0.728030     2.7938   0.727901      96.75     0.01930     2.8032     2.4706   34.019428    2.3731029     47.07760     -47.28036    34.5176    34.5162     2.7782     2.7733    27.5200    27.5193    6.59410    6.61059         25   0.0
+      22346   '11-JUL-2014 07:43:14.04'    336.000     2.7948   0.727926     2.7932   0.727877      37.29     0.02470     2.8034     2.4718   34.040340    2.3553703     47.07760     -47.28036    34.5170    34.5162     2.7743     2.7727    27.5199    27.5194    6.59633    6.61563         28   0.0
+      22374   '11-JUL-2014 07:43:15.21'    335.000     2.7949   0.727918     2.7929   0.727862      98.56     0.02690     2.8034     2.4722   34.041241    2.3419621     47.07760     -47.28036    34.5170    34.5162     2.7745     2.7725    27.5199    27.5194    6.59463    6.60600         27   0.0
+      22401   '11-JUL-2014 07:43:16.34'    334.000     2.7949   0.727910     2.7926   0.727845      49.96     0.02220     2.8035     2.4723   34.043980    2.3349972     47.07760     -47.28036    34.5172    34.5163     2.7745     2.7722    27.5200    27.5195    6.59752    6.60772         27   0.0
+      22426   '11-JUL-2014 07:43:17.37'    333.000     2.7960   0.727917     2.7923   0.727829      27.54     0.02370     2.8042     2.4724   34.053387    2.3362324     47.07760     -47.28036    34.5169    34.5162     2.7757     2.7720    27.5197    27.5195    6.59559    6.60102         22   0.0
+      22447   '11-JUL-2014 07:43:18.24'    332.000     2.7939   0.727860     2.7923   0.727820      99.65     0.02340     2.8033     2.4719   34.066116    2.3585591     47.07760     -47.28036    34.5166    34.5163     2.7737     2.7721    27.5197    27.5196    6.58521    6.58861         20   0.0
+      22466   '11-JUL-2014 07:43:19.05'    331.000     2.7936   0.727842     2.7920   0.727804      97.53     0.02250     2.8034     2.4704   34.068665    2.4374297     47.07760     -47.28036    34.5166    34.5163     2.7734     2.7718    27.5197    27.5196    6.58620    6.56711         19   0.0
+      22486   '11-JUL-2014 07:43:19.85'    330.000     2.7927   0.727815     2.7918   0.727790      45.37     0.02320     2.8027     2.4677   34.071064    2.3992620     47.07760     -47.28036    34.5168    34.5164     2.7725     2.7717    27.5199    27.5196    6.57105    6.54625         20   0.0
+      22507   '11-JUL-2014 07:43:20.74'    329.000     2.7924   0.727800     2.7930   0.727802      67.06     0.02120     2.8007     2.4643   34.070717    2.4439821     47.07760     -47.28036    34.5168    34.5162     2.7724     2.7730    27.5199    27.5194    6.55177    6.52923         23   0.0
+      22533   '11-JUL-2014 07:43:21.82'    328.000     2.7958   0.727864     2.7972   0.727880      98.87     0.02070     2.7972     2.4603   34.081192    2.3954053     47.07760     -47.28036    34.5170    34.5164     2.7759     2.7772    27.5197    27.5192    6.52697    6.52276         28   0.0
+      22560   '11-JUL-2014 07:43:22.96'    327.000     2.7950   0.727817     2.7973   0.727852      43.21     0.01650     2.7923     2.4572   34.082306    2.3816612     47.07760     -47.28036    34.5159    34.5153     2.7751     2.7774    27.5190    27.5183    6.51660    6.52187         26   0.0
+      22583   '11-JUL-2014 07:43:23.94'    326.000     2.7803   0.727445     2.7629   0.726999      87.51     0.01850     2.7896     2.4553   34.095856    2.7908022     47.07760     -47.28036    34.5128    34.5080     2.7604     2.7431    27.5178    27.5154    6.52395    6.52685         21   0.0
+      22604   '11-JUL-2014 07:43:24.79'    325.000     2.7099   0.725783     2.7038   0.725495      98.84     0.01880     2.7880     2.4543   34.095978    2.8273733     47.07760     -47.28036    34.5014    34.4928     2.6903     2.6842    27.5148    27.5085    6.52736    6.54170         20   0.0
+      22624   '11-JUL-2014 07:43:25.62'    324.000     2.6758   0.724885     2.6498   0.724187      76.94     0.02150     2.7856     2.4538   34.101116    2.8343275     47.07760     -47.28036    34.4912    34.4823     2.6564     2.6305    27.5096    27.5048    6.53680    6.55276         21   0.0
+      22646   '11-JUL-2014 07:43:26.55'    323.000     2.6492   0.724203     2.6303   0.723705      51.14     0.02260     2.7848     2.4537   34.102516    2.8339603     47.07760     -47.28036    34.4843    34.4784     2.6299     2.6111    27.5065    27.5033    6.55359    6.56203         25   0.0
+      22674   '11-JUL-2014 07:43:27.70'    322.000     2.6350   0.723819     2.6248   0.723560      70.27     0.01990     2.7848     2.4540   34.124554    2.7982929     47.07760     -47.28036    34.4799    34.4771     2.6158     2.6057    27.5041    27.5028    6.56318    6.56927         29   0.0
+      22703   '11-JUL-2014 07:43:28.90'    321.000     2.6330   0.723766     2.6294   0.723642      48.87     0.01900     2.7861     2.4548   34.132584    2.7748241     47.07760     -47.28036    34.4796    34.4772     2.6139     2.6110    27.5041    27.5024    6.57500    6.57566         27   0.0
+      22727   '11-JUL-2014 07:43:29.92'    320.000     2.6344   0.723772     2.6326   0.723696      83.37     0.02220     2.7875     2.4557   34.161888    2.1846232     47.07760     -47.28035    34.4792    34.4771     2.6153     2.6135    27.5036    27.5021    6.59065    6.57832         22   0.0
+      22748   '11-JUL-2014 07:43:30.79'    319.000     2.6361   0.723768     2.6346   0.723726      98.95     0.02260     2.7895     2.4565   34.161171    2.2279136     47.07760     -47.28034    34.4777    34.4771     2.6171     2.6156    27.5022    27.5019    6.58369    6.58043         20   0.0
+      22768   '11-JUL-2014 07:43:31.62'    318.000     2.6358   0.723746     2.6346   0.723711      76.59     0.02080     2.7897     2.4573   34.179871    2.2047741     47.07760     -47.28034    34.4774    34.4769     2.6169     2.6156    27.5021    27.5017    6.57502    6.58235         21   0.0
+      22789   '11-JUL-2014 07:43:32.49'    317.000     2.6351   0.723720     2.6336   0.723678      43.72     0.02010     2.7903     2.4581   34.184349    2.2728531     47.07760     -47.28034    34.4772    34.4767     2.6163     2.6148    27.5020    27.5016    6.57766    6.58474         22   0.0
+      22812   '11-JUL-2014 07:43:33.45'    316.000     2.6345   0.723698     2.6335   0.723663      97.88     0.02110     2.7910     2.4590   34.198566    2.2360764     47.07760     -47.28034    34.4773    34.4766     2.6158     2.6147    27.5021    27.5016    6.57763    6.58702         23   0.0
+      22835   '11-JUL-2014 07:43:34.42'    315.000     2.6346   0.723687     2.6344   0.723674      95.29     0.02260     2.7907     2.4598   34.214767    2.2696993     47.07760     -47.28034    34.4773    34.4768     2.6158     2.6156    27.5020    27.5016    6.57060    6.58227         23   0.0
+      22858   '11-JUL-2014 07:43:35.38'    314.000     2.6347   0.723679     2.6342   0.723652      26.99     0.02920     2.7914     2.4599   34.217896    2.3444951     47.07760     -47.28034    34.4772    34.4764     2.6161     2.6155    27.5020    27.5013    6.57571    6.58061         23   0.0
+      22881   '11-JUL-2014 07:43:36.35'    313.000     2.6338   0.723649     2.6306   0.723540      98.47     0.02620     2.7915     2.4603   34.216122    2.3431032     47.07760     -47.28034    34.4772    34.4749     2.6152     2.6120    27.5020    27.5005    6.57594    6.58093         24   0.0
+      22905   '11-JUL-2014 07:43:37.34'    312.000     2.6321   0.723586     2.6257   0.723412      98.57     0.02450     2.7919     2.4604   34.213097    2.3737059     47.07760     -47.28034    34.4762    34.4739     2.6136     2.6072    27.5014    27.5001    6.57775    6.57950         24   0.0
+      22929   '11-JUL-2014 07:43:38.35'    311.000     2.6272   0.723458     2.6236   0.723354      31.64     0.02630     2.7927     2.4606   34.214886    2.3906412     47.07760     -47.28034    34.4752    34.4737     2.6087     2.6052    27.5010    27.5000    6.57790    6.57767         24   0.0
+      22953   '11-JUL-2014 07:43:39.35'    310.000     2.6259   0.723407     2.6231   0.723330      99.45     0.02520     2.7926     2.4602   34.223709    2.3823922     47.07760     -47.28034    34.4745    34.4735     2.6075     2.6047    27.5006    27.4999    6.57693    6.57289         23   0.0
+      22976   '11-JUL-2014 07:43:40.29'    309.000     2.6248   0.723367     2.6229   0.723309      98.64     0.02670     2.7930     2.4601   34.241482    2.3871744     47.07760     -47.28034    34.4741    34.4731     2.6065     2.6046    27.5003    27.4997    6.57419    6.57706         23   0.0
+      22998   '11-JUL-2014 07:43:41.22'    308.000     2.6236   0.723318     2.6219   0.723269      38.64     0.02750     2.7928     2.4602   34.241096    2.3740613     47.07760     -47.28034    34.4735    34.4727     2.6053     2.6036    27.4999    27.4994    6.56665    6.57386         22   0.0
+      23021   '11-JUL-2014 07:43:42.18'    307.000     2.6218   0.723263     2.6199   0.723208      88.60     0.02540     2.7924     2.4599   34.242962    2.3639543     47.07760     -47.28034    34.4730    34.4722     2.6036     2.6017    27.4997    27.4992    6.56911    6.57091         24   0.0
+      23045   '11-JUL-2014 07:43:43.18'    306.000     2.6192   0.723189     2.6170   0.723125      98.57     0.02490     2.7922     2.4599   34.241768    2.3646672     47.07760     -47.28034    34.4725    34.4714     2.6011     2.5989    27.4995    27.4988    6.56884    6.58347         24   0.0
+      23070   '11-JUL-2014 07:43:44.21'    305.000     2.6177   0.723142     2.6147   0.723058      89.92     0.02300     2.7920     2.4613   34.240299    2.3206835     47.07760     -47.28034    34.4721    34.4709     2.5997     2.5967    27.4993    27.4986    6.57138    6.59213         25   0.0
+      23094   '11-JUL-2014 07:43:45.19'    304.000     2.6162   0.723089     2.6133   0.723011      97.42     0.02000     2.7930     2.4627   34.248306    2.2825069     47.07760     -47.28034    34.4715    34.4705     2.5982     2.5953    27.4990    27.4984    6.58435    6.59821         23   0.0
+      23116   '11-JUL-2014 07:43:46.14'    303.000     2.6141   0.723027     2.6123   0.722976      98.62     0.01970     2.7942     2.4637   34.260281    2.1889210     47.07760     -47.28034    34.4710    34.4703     2.5962     2.5944    27.4987    27.4983    6.58777    6.59092         22   0.0
+      23139   '11-JUL-2014 07:43:47.07'    302.000     2.6123   0.722974     2.6100   0.722910      98.63     0.02130     2.7953     2.4639   34.263752    2.1393228     47.07760     -47.28034    34.4706    34.4698     2.5944     2.5922    27.4986    27.4981    6.58791    6.58836         22   0.0
+      23161   '11-JUL-2014 07:43:48.01'    301.000     2.6097   0.722905     2.6040   0.722752      98.63     0.02350     2.7961     2.4644   34.266945    2.0646961     47.07760     -47.28034    34.4704    34.4685     2.5919     2.5862    27.4986    27.4976    6.59519    6.59603         23   0.0
+      23184   '11-JUL-2014 07:43:48.96'    300.000     2.6064   0.722807     2.5974   0.722594      98.63     0.01940     2.7977     2.4653   34.273968    2.0605464     47.07760     -47.28034    34.4694    34.4677     2.5887     2.5797    27.4980    27.4975    6.60153    6.59382         23   0.0
+      23207   '11-JUL-2014 07:43:49.90'    299.000     2.6012   0.722671     2.5918   0.722455      98.63     0.02160     2.7995     2.4652   34.269714    1.9855918     47.07760     -47.28034    34.4683    34.4670     2.5835     2.5742    27.4977    27.4974    6.60444    6.59266         22   0.0
+      23228   '11-JUL-2014 07:43:50.77'    298.000     2.5928   0.722482     2.5883   0.722357      98.63     0.02180     2.8000     2.4660   34.272533    2.0252080     47.07760     -47.28034    34.4679    34.4662     2.5752     2.5707    27.4981    27.4970    6.60471    6.60807         20   0.0
+      23248   '11-JUL-2014 07:43:51.64'    297.000     2.5897   0.722387     2.5867   0.722311      98.63     0.01850     2.8016     2.4677   34.273716    1.9630014     47.07760     -47.28034    34.4668    34.4660     2.5722     2.5692    27.4974    27.4971    6.61442    6.63087         22   0.0
+      23271   '11-JUL-2014 07:43:52.60'    296.000     2.5875   0.722331     2.5866   0.722300      98.63     0.02050     2.8031     2.4712   34.275982    2.0055716     47.07760     -47.28034    34.4667    34.4661     2.5701     2.5699    27.4975    27.4971    6.62281    6.65399         25   0.0
+      23300   '11-JUL-2014 07:43:53.77'    295.000     2.5871   0.722306     2.5867   0.722288      98.63     0.02120     2.8074     2.4756   34.272530    1.9584018     47.07760     -47.28034    34.4664    34.4659     2.5697     2.5693    27.4973    27.4969    6.66330    6.65760         30   0.0
+      23330   '11-JUL-2014 07:43:55.04'    294.000     2.5884   0.722325     2.5874   0.722293      98.63     0.01710     2.8139     2.4782   34.269192    1.9898132     47.07760     -47.28032    34.4666    34.4660     2.5711     2.5701    27.4973    27.4970    6.67925    6.64328         29   0.0
+      23356   '11-JUL-2014 07:43:56.14'    293.000     2.5895   0.722335     2.5920   0.722381      98.63     0.01710     2.8178     2.4786   34.270199    1.9927852     47.07760     -47.28032    34.4665    34.4663     2.5723     2.5747    27.4971    27.4968    6.67010    6.63386         25   0.0
+      23380   '11-JUL-2014 07:43:57.11'    292.000     2.5957   0.722437     2.5982   0.722485      98.63     0.01450     2.8202     2.4789   34.273079    2.0157819     47.07760     -47.28032    34.4657    34.4657     2.5785     2.5809    27.4960    27.4958    6.66042    6.63772         22   0.0
+      23401   '11-JUL-2014 07:43:58.00'    291.000     2.5882   0.722213     2.5823   0.722022      98.63     0.01610     2.8208     2.4797   34.273060    1.9964737     47.07760     -47.28032    34.4625    34.4587     2.5711     2.5652    27.4941    27.4916    6.64811    6.64079         22   0.0
+      23424   '11-JUL-2014 07:43:58.94'    290.000     2.5690   0.721749     2.5594   0.721438      98.63     0.01790     2.8211     2.4800   34.273914    2.0181196     47.07760     -47.28032    34.4592    34.4531     2.5519     2.5424    27.4931    27.4890    6.64445    6.63886         23   0.0
+      23449   '11-JUL-2014 07:43:59.99'    289.000     2.5641   0.721572     2.5473   0.721137      24.44     0.01740     2.8198     2.4800   34.272427    2.0238914     47.07760     -47.28032    34.4556    34.4507     2.5471     2.5303    27.4906    27.4881    6.63891    6.63760         27   0.0
+      23478   '11-JUL-2014 07:44:01.22'    288.000     2.5579   0.721378     2.5418   0.720988      95.79     0.01940     2.8194     2.4799   34.264694    2.0180416     47.07760     -47.28032    34.4527    34.4493     2.5410     2.5250    27.4888    27.4875    6.63975    6.63744         32   0.0
+      23510   '11-JUL-2014 07:44:02.53'    287.000     2.5482   0.721162     2.5334   0.720772      92.80     0.01900     2.8193     2.4798   34.253391    2.0383339     47.07760     -47.28032    34.4521    34.4474     2.5314     2.5167    27.4892    27.4867    6.64541    6.63315         30   0.0
+      23537   '11-JUL-2014 07:44:03.65'    286.000     2.5383   0.720912     2.5201   0.720429      89.43     0.01940     2.8190     2.4789   34.248348    2.0112059     47.07760     -47.28032    34.4501    34.4441     2.5216     2.5034    27.4884    27.4852    6.63941    6.63204         23   0.0
+      23558   '11-JUL-2014 07:44:04.55'    285.000     2.5194   0.720421     2.5116   0.720208      55.66     0.02600     2.8186     2.4789   34.249092    2.0525160     47.07760     -47.28032    34.4451    34.4421     2.5028     2.4950    27.4860    27.4843    6.64045    6.64298         21   0.0
+      23578   '11-JUL-2014 07:44:05.38'    284.000     2.5107   0.720176     2.5054   0.720039      83.25     0.02800     2.8179     2.4796   34.244755    2.0279677     47.07760     -47.28032    34.4420    34.4404     2.4942     2.4889    27.4842    27.4834    6.64316    6.66368         20   0.0
+      23599   '11-JUL-2014 07:44:06.25'    283.000     2.5038   0.719997     2.4979   0.719844      98.32     0.02280     2.8184     2.4819   34.246384    2.0085166     47.07760     -47.28032    34.4405    34.4387     2.4873     2.4815    27.4836    27.4827    6.66060    6.68783         22   0.0
+      23625   '11-JUL-2014 07:44:07.35'    282.000     2.4997   0.719889     2.4865   0.719555      98.63     0.02110     2.8208     2.4863   34.239765    1.9679290     47.07760     -47.28032    34.4397    34.4362     2.4833     2.4702    27.4833    27.4817    6.69276    6.71566         31   0.0
+      23659   '11-JUL-2014 07:44:08.76'    281.000     2.4995   0.719880     2.4873   0.719530      98.63     0.02100     2.8281     2.4922   34.242245    1.9351881     47.07760     -47.28031    34.4400    34.4345     2.4832     2.4711    27.4836    27.4802    6.74357    6.72117         34   0.0
+      23691   '11-JUL-2014 07:44:10.07'    280.000     2.4973   0.719789     2.4655   0.718961      98.63     0.02100     2.8352     2.4947   34.240971    1.8658848     47.07760     -47.28030    34.4381    34.4279     2.4810     2.4493    27.4823    27.4767    6.73704    6.70239         29   0.0
+      23718   '11-JUL-2014 07:44:11.20'    279.000     2.4664   0.719030     2.4384   0.718194      98.63     0.01900     2.8384     2.4949   34.240627    1.8403531     47.07760     -47.28030    34.4316    34.4173     2.4503     2.4230    27.4796    27.4706    6.73247    6.69855         26   0.0
+      23741   '11-JUL-2014 07:44:12.19'    278.000     2.4386   0.718173     2.4287   0.717870      98.63     0.02100     2.8399     2.4947   34.241093    1.8105708     47.07760     -47.28030    34.4167    34.4112     2.4226     2.4128    27.4700    27.4665    6.73031    6.69857         22   0.0
+      23763   '11-JUL-2014 07:44:13.09'    277.000     2.4315   0.717924     2.4269   0.717777      98.63     0.02050     2.8406     2.4940   34.240009    1.8166977     47.07760     -47.28030    34.4117    34.4088     2.4155     2.4110    27.4667    27.4647    6.72394    6.69158         21   0.0
+      23784   '11-JUL-2014 07:44:13.96'    276.000     2.4294   0.717799     2.4275   0.717714      98.63     0.02170     2.8404     2.4934   34.244202    1.7654908     47.07760     -47.28030    34.4078    34.4053     2.4136     2.4117    27.4637    27.4619    6.71134    6.69169         21   0.0
+      23805   '11-JUL-2014 07:44:14.84'    275.000     2.4284   0.717674     2.4263   0.717566      98.64     0.02360     2.8394     2.4928   34.241787    1.8016415     47.07760     -47.28030    34.4029    34.3993     2.4126     2.4106    27.4599    27.4571    6.70087    6.69751         22   0.0
+      23828   '11-JUL-2014 07:44:15.80'    274.000     2.4236   0.717487     2.4064   0.716967      98.63     0.02400     2.8379     2.4934   34.215813    1.7418627     47.07760     -47.28030    34.3986    34.3895     2.4079     2.3907    27.4568    27.4510    6.69884    6.70798         24   0.0
+      23856   '11-JUL-2014 07:44:16.94'    273.000     2.4114   0.717159     2.3739   0.716187      98.63     0.02540     2.8372     2.4947   34.208527    1.7713648     47.07760     -47.28030    34.3948    34.3836     2.3958     2.3584    27.4548    27.4489    6.70665    6.72071         31   0.0
+      23889   '11-JUL-2014 07:44:18.35'    272.000     2.4085   0.717125     2.3684   0.716035      48.72     0.02260     2.8370     2.4962   34.190018    1.7632747     47.07758     -47.28030    34.3968    34.3820     2.3929     2.3529    27.4566    27.4481    6.71208    6.71285         34   0.0
+      23920   '11-JUL-2014 07:44:19.62'    271.000     2.3924   0.716667     2.3586   0.715734      99.74     0.02400     2.8373     2.4959   34.184914    1.7285862     47.07758     -47.28029    34.3903    34.3769     2.3769     2.3439    27.4528    27.4448    6.71360    6.70797         27   0.0
+      23943   '11-JUL-2014 07:44:20.59'    270.000     2.3549   0.715630     2.3440   0.715309      98.63     0.02070     2.8370     2.4957   34.181393    1.7684351     47.07758     -47.28028    34.3761    34.3707     2.3396     2.3288    27.4444    27.4411    6.71999    6.71702         21   0.0
+      23964   '11-JUL-2014 07:44:21.45'    269.000     2.3257   0.714847     2.3209   0.714662      85.28     0.01850     2.8376     2.4959   34.186256    1.7239355     47.07758     -47.28028    34.3664    34.3617     2.3106     2.3057    27.4391    27.4358    6.72772    6.72149         21   0.0
+      23985   '11-JUL-2014 07:44:22.34'    268.000     2.3060   0.714308     2.2982   0.714077      95.83     0.02080     2.8371     2.4954   34.187778    1.7443613     47.07758     -47.28028    34.3595    34.3556     2.2909     2.2831    27.4352    27.4327    6.72024    6.72130         22   0.0
+      24008   '11-JUL-2014 07:44:23.30'    267.000     2.2990   0.714109     2.2893   0.713839      98.60     0.01940     2.8367     2.4952   34.199482    1.7134718     47.07758     -47.28028    34.3570    34.3531     2.2840     2.2744    27.4337    27.4314    6.72373    6.72302         24   0.0
+      24033   '11-JUL-2014 07:44:24.34'    266.000     2.2932   0.713950     2.2846   0.713700      98.63     0.02080     2.8361     2.4954   34.213375    1.6977047     47.07758     -47.28028    34.3554    34.3513     2.2783     2.2697    27.4329    27.4304    6.72215    6.72698         26   0.0
+      24059   '11-JUL-2014 07:44:25.43'    265.000     2.2883   0.713813     2.2830   0.713643      98.63     0.01950     2.8361     2.4954   34.198475    1.6620413     47.07758     -47.28028    34.3538    34.3506     2.2735     2.2681    27.4321    27.4299    6.72267    6.72642         26   0.0
+      24085   '11-JUL-2014 07:44:26.51'    264.000     2.2855   0.713700     2.2820   0.713603      98.63     0.01780     2.8360     2.4953   34.182198    1.6785074     47.07758     -47.28028    34.3514    34.3500     2.2708     2.2672    27.4304    27.4296    6.72692    6.72412         26   0.0
+      24112   '11-JUL-2014 07:44:27.61'    263.000     2.2841   0.713645     2.2814   0.713570      98.63     0.01900     2.8364     2.4956   34.187691    1.6337547     47.07758     -47.28028    34.3505    34.3495     2.2694     2.2667    27.4298    27.4292    6.73177    6.73070         27   0.0
+      24141   '11-JUL-2014 07:44:28.83'    262.000     2.2822   0.713593     2.2807   0.713541      83.32     0.01740     2.8370     2.4964   34.190514    1.6737447     47.07758     -47.28028    34.3503    34.3492     2.2676     2.2661    27.4298    27.4290    6.73165    6.74001         30   0.0
+      24170   '11-JUL-2014 07:44:30.03'    261.000     2.2823   0.713576     2.2811   0.713529      79.00     0.01780     2.8377     2.4980   34.180447    1.6328778     47.07758     -47.28028    34.3499    34.3487     2.2677     2.2665    27.4294    27.4286    6.73624    6.74040         27   0.0
+      24194   '11-JUL-2014 07:44:31.05'    260.000     2.2828   0.713553     2.2821   0.713528      99.26     0.01790     2.8381     2.4979   34.185978    1.6530563     47.07758     -47.28026    34.3487    34.3482     2.2682     2.2675    27.4284    27.4281    6.73354    6.72932         22   0.0
+      24215   '11-JUL-2014 07:44:31.92'    259.000     2.2848   0.713555     2.2840   0.713535      98.63     0.01790     2.8392     2.4980   34.197510    1.6113511     47.07757     -47.28026    34.3472    34.3471     2.2704     2.2695    27.4270    27.4270    6.73989    6.73195         21   0.0
+      24235   '11-JUL-2014 07:44:32.75'    258.000     2.2850   0.713493     2.2824   0.713398      98.63     0.02040     2.8391     2.4981   34.195641    1.6780380     47.07756     -47.28026    34.3443    34.3420     2.2705     2.2680    27.4247    27.4231    6.72009    6.72714         20   0.0
+      24257   '11-JUL-2014 07:44:33.67'    257.000     2.2795   0.713305     2.2708   0.713008      98.64     0.01940     2.8378     2.4976   34.189991    1.6772956     47.07756     -47.28026    34.3408    34.3343     2.2651     2.2565    27.4224    27.4178    6.70931    6.72164         24   0.0
+      24286   '11-JUL-2014 07:44:34.88'    256.000     2.2724   0.713086     2.2470   0.712344      82.74     0.02330     2.8364     2.4970   34.186882    1.7400711     47.07756     -47.28026    34.3373    34.3251     2.2581     2.2327    27.4201    27.4125    6.71345    6.72498         38   0.0
+      24331   '11-JUL-2014 07:44:36.77'    255.000     2.2560   0.712675     2.2420   0.712230      91.44     0.02870     2.8366     2.4975   34.181694    1.7123476     47.07756     -47.28026    34.3336    34.3258     2.2418     2.2278    27.4185    27.4134    6.73179    6.73235         47   0.0
+      24375   '11-JUL-2014 07:44:38.59'    254.000     2.2661   0.712935     2.2054   0.711311      98.73     0.02540     2.8376     2.4975   34.182053    1.6888163     47.07756     -47.28026    34.3372    34.3159     2.2519     2.1914    27.4205    27.4084    6.73639    6.73710         40   0.0
+      24412   '11-JUL-2014 07:44:40.14'    253.000     2.2128   0.711630     2.1728   0.710568      98.63     0.02640     2.8408     2.5003   34.183170    1.6354233     47.07756     -47.28026    34.3245    34.3119     2.1988     2.1589    27.4147    27.4078    6.76848    6.76971         34   0.0
+      24444   '11-JUL-2014 07:44:41.47'    252.000     2.1469   0.709849     2.1430   0.709757      69.33     0.02460     2.8426     2.5013   34.199535    1.5948727     47.07756     -47.28026    34.3019    34.3012     2.1332     2.1292    27.4018    27.4016    6.76880    6.75388         32   0.0
+      24481   '11-JUL-2014 07:44:43.00'    251.000     2.1198   0.709183     2.1304   0.709401      96.05     0.02600     2.8427     2.4998   34.214333    1.5883809     47.07756     -47.28026    34.2961    34.2963     2.1061     2.1167    27.3994    27.3987    6.76032    6.76466         42   0.0
+      24954   '11-JUL-2014 07:45:02.71'    250.000     2.1032   0.708716     2.0992   0.708607      98.65     0.02260     2.8420     2.5031   34.205856    1.5531567     47.07755     -47.28024    34.2895    34.2880     2.0896     2.0857    27.3954    27.3945    6.76103    6.78312         55   0.0
+      25794   '11-JUL-2014 07:45:37.71'    249.000     2.0825   0.708185     2.0810   0.708147      67.12     0.02150     2.8462     2.5072   34.188110    1.3927832     47.07754     -47.28020    34.2840    34.2836     2.0690     2.0675    27.3926    27.3924    6.79883    6.80457         43   0.0
+      25838   '11-JUL-2014 07:45:39.52'    248.000     2.0820   0.708154     2.0790   0.708080      98.31     0.01870     2.8487     2.5089   34.190453    1.3824730     47.07754     -47.28020    34.2834    34.2827     2.0686     2.0656    27.3922    27.3919    6.80281    6.80902         43   0.0
+      25877   '11-JUL-2014 07:45:41.17'    247.000     2.0786   0.708054     2.0774   0.708017      98.15     0.02220     2.8507     2.5109   34.189560    1.4052359     47.07754     -47.28020    34.2823    34.2816     2.0652     2.0641    27.3916    27.3911    6.80448    6.82508         33   0.0
+      25907   '11-JUL-2014 07:45:42.41'    246.000     2.0775   0.707981     2.0769   0.707965      98.64     0.01890     2.8518     2.5128   34.182529    1.4135176     47.07754     -47.28020    34.2802    34.2799     2.0642     2.0636    27.3900    27.3897    6.81377    6.83155         28   0.0
+      25933   '11-JUL-2014 07:45:43.48'    245.000     2.0779   0.707943     2.0774   0.707926      98.64     0.02410     2.8541     2.5145   34.186897    1.3809432     47.07754     -47.28020    34.2782    34.2778     2.0646     2.0642    27.3884    27.3880    6.81810    6.82852         25   0.0
+      25957   '11-JUL-2014 07:45:44.52'    244.000     2.0802   0.707938     2.0824   0.707980      98.63     0.02560     2.8547     2.5152   34.185596    1.4187057     47.07754     -47.28020    34.2760    34.2760     2.0670     2.0692    27.3864    27.3862    6.81270    6.82601         24   0.0
+      25983   '11-JUL-2014 07:45:45.59'    243.000     2.0866   0.708040     2.0932   0.708152      98.63     0.02210     2.8559     2.5161   34.188313    1.3595101     47.07754     -47.28020    34.2751    34.2740     2.0734     2.0801    27.3852    27.3838    6.81918    6.83300         27   0.0
+      26011   '11-JUL-2014 07:45:46.73'    242.000     2.0926   0.708131     2.0957   0.708182      98.63     0.01970     2.8573     2.5176   34.190479    1.4029969     47.07754     -47.28020    34.2742    34.2736     2.0795     2.0826    27.3840    27.3832    6.81632    6.83668         28   0.0
+      26037   '11-JUL-2014 07:45:47.85'    241.000     2.0980   0.708216     2.1015   0.708292      90.37     0.01910     2.8587     2.5192   34.179806    1.3568882     47.07754     -47.28020    34.2734    34.2737     2.0850     2.0884    27.3829    27.3829    6.82555    6.84175         25   0.0
+      26063   '11-JUL-2014 07:45:48.92'    240.000     2.1050   0.708347     2.1108   0.708467      80.19     0.01820     2.8600     2.5202   34.181259    1.4033980     47.07754     -47.28020    34.2734    34.2736     2.0920     2.0978    27.3824    27.3820    6.82300    6.83317         27   0.0
+      26090   '11-JUL-2014 07:45:50.02'    239.000     2.1121   0.708478     2.1158   0.708559      98.65     0.01850     2.8610     2.5209   34.180893    1.3754747     47.07754     -47.28020    34.2734    34.2737     2.0991     2.1029    27.3818    27.3817    6.81719    6.84201         26   0.0
+      26114   '11-JUL-2014 07:45:51.06'    238.000     2.1155   0.708538     2.1177   0.708582      98.64     0.02010     2.8617     2.5227   34.179630    1.4151435     47.07754     -47.28020    34.2735    34.2735     2.1026     2.1048    27.3815    27.3814    6.81626    6.85496         23   0.0
+      26137   '11-JUL-2014 07:45:52.00'    237.000     2.1220   0.708639     2.1247   0.708696      98.63     0.02040     2.8618     2.5247   34.161125    1.3975797     47.07754     -47.28019    34.2725    34.2726     2.1091     2.1118    27.3802    27.3801    6.82145    6.85873         23   0.0
+      26159   '11-JUL-2014 07:45:52.92'    236.000     2.1290   0.708748     2.1337   0.708838      98.64     0.01830     2.8636     2.5262   34.161171    1.4351865     47.07754     -47.28018    34.2713    34.2711     2.1162     2.1209    27.3787    27.3782    6.83972    6.85068         22   0.0
+      26182   '11-JUL-2014 07:45:53.86'    235.000     2.1342   0.708825     2.1390   0.708897      98.63     0.01900     2.8662     2.5267   34.156132    1.3930254     47.07754     -47.28018    34.2703    34.2690     2.1215     2.1262    27.3775    27.3761    6.84868    6.85054         23   0.0
+      26205   '11-JUL-2014 07:45:54.85'    234.000     2.1355   0.708795     2.1332   0.708681      98.63     0.02100     2.8690     2.5282   34.153259    1.4302883     47.07754     -47.28018    34.2680    34.2643     2.1227     2.1205    27.3755    27.3727    6.85782    6.86119         24   0.0
+      26229   '11-JUL-2014 07:45:55.85'    233.000     2.1309   0.708613     2.1072   0.707986      62.63     0.01780     2.8718     2.5297   34.138107    1.3938996     47.07754     -47.28018    34.2638    34.2557     2.1182     2.0946    27.3725    27.3679    6.86583    6.86685         24   0.0
+      26254   '11-JUL-2014 07:45:56.88'    232.000     2.1072   0.708045     2.0848   0.707435      78.01     0.01630     2.8746     2.5316   34.137508    1.4350659     47.07754     -47.28018    34.2594    34.2509     2.0947     2.0723    27.3709    27.3659    6.87288    6.88239         26   0.0
+      26281   '11-JUL-2014 07:45:58.02'    231.000     2.0913   0.707601     2.0801   0.707304      98.18     0.02000     2.8773     2.5343   34.126556    1.4123813     47.07754     -47.28018    34.2534    34.2495     2.0788     2.0677    27.3673    27.3651    6.88292    6.90076         29   0.0
+      26310   '11-JUL-2014 07:45:59.21'    230.000     2.0819   0.707351     2.0750   0.707160      93.31     0.02040     2.8802     2.5369   34.127960    1.4269284     47.07752     -47.28018    34.2506    34.2479     2.0695     2.0626    27.3658    27.3642    6.89202    6.90187         26   0.0
+      26334   '11-JUL-2014 07:46:00.21'    229.000     2.0701   0.707033     2.0589   0.706719      98.76     0.01810     2.8821     2.5389   34.131954    1.3951550     47.07752     -47.28018    34.2469    34.2421     2.0578     2.0466    27.3638    27.3608    6.88334    6.91021         22   0.0
+      26354   '11-JUL-2014 07:46:01.04'    228.000     2.0583   0.706609     2.0541   0.706446      98.64     0.02110     2.8825     2.5402   34.131866    1.4160399     47.07752     -47.28018    34.2369    34.2332     2.0461     2.0419    27.3567    27.3541    6.88396    6.91382         19   0.0
+      26373   '11-JUL-2014 07:46:01.82'    227.000     2.0607   0.706520     2.0612   0.706493      98.63     0.01980     2.8834     2.5415   34.126534    1.3621913     47.07752     -47.28018    34.2307    34.2287     2.0485     2.0490    27.3515    27.3499    6.90317    6.91498         19   0.0
+      26392   '11-JUL-2014 07:46:02.63'    226.000     2.0627   0.706519     2.0635   0.706506      98.63     0.01830     2.8860     2.5424   34.124573    1.4181255     47.07752     -47.28018    34.2290    34.2275     2.0506     2.0513    27.3500    27.3488    6.90489    6.91129         20   0.0
+      26414   '11-JUL-2014 07:46:03.54'    225.000     2.0641   0.706520     2.0656   0.706547      98.63     0.02150     2.8867     2.5430   34.123585    1.3525844     47.07753     -47.28018    34.2281    34.2280     2.0520     2.0535    27.3492    27.3490    6.89591    6.91045         23   0.0
+      26439   '11-JUL-2014 07:46:04.59'    224.000     2.0649   0.706522     2.0718   0.706680      98.63     0.02080     2.8885     2.5442   34.119358    1.3923612     47.07754     -47.28018    34.2279    34.2290     2.0529     2.0598    27.3490    27.3493    6.90599    6.91861         28   0.0
+      26468   '11-JUL-2014 07:46:05.81'    223.000     2.0703   0.706621     2.0743   0.706729      98.63     0.02460     2.8904     2.5451   34.100117    1.3472877     47.07753     -47.28018    34.2281    34.2294     2.0584     2.0623    27.3487    27.3494    6.90123    6.89799         31   0.0
+      26500   '11-JUL-2014 07:46:07.13'    222.000     2.0710   0.706635     2.0748   0.706733      74.85     0.01970     2.8899     2.5429   34.089733    1.3733449     47.07752     -47.28018    34.2285    34.2296     2.0591     2.0629    27.3490    27.3496    6.87543    6.88199         31   0.0
+      26528   '11-JUL-2014 07:46:08.29'    221.000     2.0730   0.706677     2.0723   0.706658      99.03     0.02220     2.8886     2.5427   34.072983    1.3711511     47.07752     -47.28018    34.2292    34.2289     2.0611     2.0604    27.3493    27.3492    6.88393    6.90302         24   0.0
+      26550   '11-JUL-2014 07:46:09.21'    220.000     2.0707   0.706609     2.0704   0.706604      98.63     0.02280     2.8897     2.5436   34.077026    1.3731923     47.07752     -47.28018    34.2286    34.2287     2.0589     2.0586    27.3490    27.3491    6.90057    6.91465         20   0.0
+      26569   '11-JUL-2014 07:46:10.01'    219.000     2.0709   0.706606     2.0699   0.706587      98.64     0.02460     2.8906     2.5453   34.088802    1.3468878     47.07752     -47.28018    34.2287    34.2288     2.0592     2.0582    27.3491    27.3493    6.88191    6.91941         19   0.0
+      26588   '11-JUL-2014 07:46:10.77'    218.000     2.0746   0.706685     2.0874   0.706963      98.63     0.02810     2.8891     2.5459   34.089542    1.4023942     47.07752     -47.28018    34.2296    34.2307     2.0629     2.0757    27.3495    27.3494    6.86573    6.90979         18   0.0
+      26606   '11-JUL-2014 07:46:11.55'    217.000     2.0911   0.707005     2.1090   0.707382      98.63     0.03080     2.8880     2.5461   34.075504    1.3329294     47.07752     -47.28018    34.2295    34.2304     2.0794     2.0973    27.3482    27.3474    6.86980    6.89868         19   0.0
+      26626   '11-JUL-2014 07:46:12.39'    216.000     2.1082   0.707323     2.0936   0.706812      98.63     0.02610     2.8885     2.5457   34.062706    1.3741955     47.07752     -47.28018    34.2287    34.2169     2.0965     2.0827    27.3462    27.3378    6.87853    6.88504         22   0.0
+      26650   '11-JUL-2014 07:46:13.39'    215.000     2.0580   0.706103     1.9723   0.703715      98.63     0.02230     2.8895     2.5449   34.050823    1.3993343     47.07752     -47.28018    34.2148    34.1822     2.0465     1.9609    27.3390    27.3195    6.89843    6.89188         26   0.0
+      26679   '11-JUL-2014 07:46:14.58'    214.000     1.9737   0.704119     1.8592   0.701155      51.72     0.02180     2.8911     2.5442   34.036427    1.5228751     47.07752     -47.28018    34.2029    34.1669     1.9624     1.8481    27.3360    27.3159    6.92096    6.90756         31   0.0
+      26709   '11-JUL-2014 07:46:15.82'    213.000     1.9665   0.703932     1.8117   0.700003      98.26     0.02200     2.8930     2.5437   34.036633    1.3785864     47.07752     -47.28018    34.2012    34.1567     1.9553     1.8007    27.3351    27.3113    6.92517    6.91580         28   0.0
+      26735   '11-JUL-2014 07:46:16.92'    212.000     1.8426   0.700798     1.7755   0.699166      98.64     0.01900     2.8936     2.5444   34.035385    1.4137478     47.07752     -47.28018    34.1668    34.1511     1.8316     1.7647    27.3171    27.3095    6.94049    6.94231         24   0.0
+      26758   '11-JUL-2014 07:46:17.87'    211.000     1.7732   0.699177     1.7430   0.698382      90.76     0.01740     2.8940     2.5440   34.052250    1.3132263     47.07752     -47.28018    34.1548    34.1445     1.7625     1.7323    27.3126    27.3066    6.95560    6.94813         22   0.0
+      26779   '11-JUL-2014 07:46:18.75'    210.000     1.7190   0.697902     1.6863   0.697006      98.64     0.01940     2.8946     2.5438   34.048847    1.3644452     47.07752     -47.28018    34.1450    34.1319     1.7084     1.6758    27.3088    27.3007    6.96427    6.96364         21   0.0
+      26800   '11-JUL-2014 07:46:19.62'    209.000     1.6507   0.696307     1.6119   0.695295      98.63     0.01960     2.8940     2.5442   34.059910    1.2741627     47.07752     -47.28018    34.1332    34.1203     1.6402     1.6015    27.3043    27.2968    6.97495    6.98153         21   0.0
+      26823   '11-JUL-2014 07:46:20.56'    208.000     1.6014   0.695178     1.5515   0.693911      98.63     0.01990     2.8950     2.5444   34.065334    1.3114187     47.07752     -47.28018    34.1259    34.1111     1.5911     1.5413    27.3020    27.2938    6.99699    6.99189         24   0.0
+      26848   '11-JUL-2014 07:46:21.64'    207.000     1.5556   0.694005     1.4949   0.692554      98.63     0.02350     2.8961     2.5452   34.086575    1.2569393     47.07752     -47.28018    34.1123    34.0992     1.5454     1.4848    27.2945    27.2883    7.00625    7.00440         27   0.0
+      26875   '11-JUL-2014 07:46:22.74'    206.000     1.5052   0.692824     1.4291   0.691048      98.64     0.02420     2.8971     2.5451   34.089642    1.4566433     47.07752     -47.28018    34.1030    34.0891     1.4952     1.4192    27.2905    27.2847    7.01463    7.00081         26   0.0
+      26899   '11-JUL-2014 07:46:23.74'    205.000     1.4307   0.691087     1.3778   0.689801      98.63     0.02270     2.8970     2.5442   34.097309    1.5028338     47.07752     -47.28018    34.0901    34.0773     1.4208     1.3681    27.2854    27.2788    7.02247    7.00519         22   0.0
+      26921   '11-JUL-2014 07:46:24.65'    204.000     1.3547   0.689394     1.3155   0.688358      98.63     0.02010     2.8969     2.5429   34.101910    1.6719767     47.07752     -47.28018    34.0807    34.0666     1.3451     1.3060    27.2832    27.2746    7.02852    7.01515         22   0.0
+      26942   '11-JUL-2014 07:46:25.53'    203.000     1.3155   0.688422     1.2762   0.687448      52.67     0.01740     2.8959     2.5420   34.105988    1.7397453     47.07752     -47.28018    34.0707    34.0602     1.3060     1.2667    27.2778    27.2721    7.02723    7.02034         21   0.0
+      26963   '11-JUL-2014 07:46:26.40'    202.000     1.2737   0.687423     1.2539   0.686905      94.42     0.02020     2.8948     2.5408   34.112942    1.7302976     47.07752     -47.28018    34.0621    34.0552     1.2643     1.2445    27.2738    27.2696    7.02181    7.01704         21   0.0
+      26985   '11-JUL-2014 07:46:27.33'    201.000     1.2602   0.687065     1.2338   0.686405      98.61     0.02150     2.8922     2.5389   34.127304    1.6909560     47.07752     -47.28018    34.0577    34.0503     1.2509     1.2245    27.2712    27.2670    7.00587    7.00496         23   0.0
+      27008   '11-JUL-2014 07:46:28.31'    200.000     1.2530   0.686854     1.2164   0.685976      98.63     0.02190     2.8895     2.5367   34.152988    1.6341137     47.07752     -47.28018    34.0546    34.0462     1.2437     1.2072    27.2691    27.2649    6.99987    7.00758         25   0.0
+      27034   '11-JUL-2014 07:46:29.39'    199.000     1.2292   0.686276     1.1847   0.685141      98.63     0.02470     2.8866     2.5355   34.142948    1.5899945     47.07752     -47.28018    34.0494    34.0345     1.2200     1.1756    27.2666    27.2576    6.99188    7.00897         27   0.0
+      27062   '11-JUL-2014 07:46:30.55'    198.000     1.2052   0.685692     1.1391   0.683969      98.63     0.02050     2.8828     2.5334   34.131977    1.5450264     47.07752     -47.28018    34.0440    34.0213     1.1961     1.1301    27.2638    27.2500    6.99222    6.99530         28   0.0
+      27090   '11-JUL-2014 07:46:31.70'    197.000     1.1750   0.684872     1.1163   0.683398      57.82     0.01940     2.8811     2.5301   34.124882    1.5227062     47.07752     -47.28018    34.0331    34.0153     1.1653     1.1074    27.2572    27.2467    6.99392    6.97461         27   0.0
+      27116   '11-JUL-2014 07:46:32.78'    196.000     1.1301   0.683804     1.1058   0.683128      98.93     0.02020     2.8777     2.5259   34.120865    1.5152334     47.07752     -47.28018    34.0233    34.0125     1.1212     1.0970    27.2522    27.2451    6.97813    6.95846         24   0.0
+      27139   '11-JUL-2014 07:46:33.74'    195.000     1.1158   0.683375     1.1008   0.682998      98.63     0.02220     2.8743     2.5215   34.156765    1.4857491     47.07752     -47.28018    34.0157    34.0114     1.1070     1.0920    27.2470    27.2445    6.96423    6.93274         22   0.0
+      27159   '11-JUL-2014 07:46:34.60'    194.000     1.1050   0.683091     1.0974   0.682907      98.63     0.02240     2.8705     2.5164   34.161129    1.3132336     47.07752     -47.28018    34.0124    34.0107     1.0963     1.0886    27.2451    27.2442    6.94435    6.91173         20   0.0
+      27179   '11-JUL-2014 07:46:35.40'    193.000     1.0992   0.682931     1.0937   0.682801      98.63     0.01890     2.8665     2.5120   34.175587    0.7997889     47.07752     -47.28018    34.0106    34.0092     1.0905     1.0850    27.2440    27.2432    6.91858    6.90581         19   0.0
+      27198   '11-JUL-2014 07:46:36.21'    192.000     1.0966   0.682845     1.0913   0.682720      98.63     0.02110     2.8611     2.5084   34.190178    0.7613090     47.07752     -47.28018    34.0093    34.0081     1.0879     1.0827    27.2431    27.2425    6.90292    6.90115         20   0.0
+      27220   '11-JUL-2014 07:46:37.13'    191.000     1.0918   0.682717     1.0830   0.682458      98.63     0.01950     2.8560     2.5048   34.195564    0.7475832     47.07752     -47.28018    34.0080    34.0033     1.0833     1.0745    27.2423    27.2392    6.89012    6.90417         25   0.0
+      27249   '11-JUL-2014 07:46:38.35'    190.000     1.0904   0.682676     1.0513   0.681531      65.95     0.02160     2.8499     2.5027   34.209248    0.7028995     47.07752     -47.28018    34.0079    33.9874     1.0819     1.0428    27.2424    27.2284    6.89102    6.92121         33   0.0
+      27282   '11-JUL-2014 07:46:39.70'    189.000     1.0710   0.682195     1.0225   0.680752      99.98     0.02260     2.8458     2.5021   34.197327    0.6498210     47.07752     -47.28016    34.0026    33.9764     1.0626     1.0142    27.2394    27.2214    6.89897    6.92534         28   0.0
+      27306   '11-JUL-2014 07:46:40.70'    188.000     1.0297   0.680973     1.0061   0.680293      98.63     0.02090     2.8428     2.5005   34.193119    0.7302658     47.07752     -47.28016    33.9814    33.9695     1.0213     0.9978    27.2250    27.2170    6.90093    6.91115         21   0.0
+      27325   '11-JUL-2014 07:46:41.48'    187.000     0.9981   0.680097     0.9834   0.679709      98.63     0.02020     2.8414     2.4986   34.229691    0.6929869     47.07752     -47.28016    33.9681    33.9626     0.9898     0.9752    27.2163    27.2129    6.89682    6.91211         18   0.0
+      27342   '11-JUL-2014 07:46:42.20'    186.000     0.9731   0.679440     0.9603   0.679127      98.63     0.02220     2.8384     2.4974   34.249008    0.5676912     47.07752     -47.28016    33.9595    33.9562     0.9650     0.9522    27.2110    27.2092    6.88328    6.91986         17   0.0
+      27360   '11-JUL-2014 07:46:42.95'    185.000     0.9557   0.679016     0.9462   0.678766      98.63     0.02130     2.8361     2.4965   34.249084    0.6462464     47.07752     -47.28016    33.9557    33.9522     0.9476     0.9382    27.2091    27.2069    6.89581    6.92822         19   0.0
+      27381   '11-JUL-2014 07:46:43.82'    184.000     0.9476   0.678798     0.9310   0.678382      72.19     0.02200     2.8351     2.4964   34.297398    0.6498734     47.07752     -47.28016    33.9534    33.9479     0.9393     0.9235    27.2077    27.2043    6.93332    6.94860         24   0.0
+      27411   '11-JUL-2014 07:46:45.08'    183.000     0.9425   0.678661     0.9204   0.678130      86.15     0.01960     2.8386     2.4992   34.301041    0.6275285     47.07752     -47.28016    33.9517    33.9464     0.9345     0.9125    27.2067    27.2038    6.97414    6.98645         38   0.0
+      27452   '11-JUL-2014 07:46:46.80'    182.000     0.9362   0.678498     0.9153   0.677971      99.29     0.01930     2.8461     2.5050   34.310566    0.5692373     47.07752     -47.28016    33.9501    33.9437     0.9283     0.9075    27.2058    27.2020    7.01605    7.00661         37   0.0
+      27481   '11-JUL-2014 07:46:48.02'    181.000     0.8968   0.677536     0.8686   0.676775      98.63     0.02240     2.8517     2.5083   34.360245    0.4537868     47.07752     -47.28016    33.9404    33.9291     0.8890     0.8608    27.2004    27.1931    7.02285    7.01380         23   0.0
+      27502   '11-JUL-2014 07:46:48.86'    180.000     0.8242   0.675739     0.8093   0.675320      98.63     0.02590     2.8540     2.5093   34.355442    0.4292569     47.07752     -47.28016    33.9207    33.9137     0.8166     0.8017    27.1891    27.1844    7.03473    7.01196         19   0.0
+      27519   '11-JUL-2014 07:46:49.59'    179.000     0.7724   0.674469     0.7612   0.674144      98.63     0.02410     2.8561     2.5091   34.375008    0.4991298     47.07752     -47.28016    33.9074    33.9016     0.7649     0.7537    27.1815    27.1776    7.03763    7.00983         17   0.0
+      27536   '11-JUL-2014 07:46:50.27'    178.000     0.7358   0.673600     0.7215   0.673207      50.05     0.02490     2.8566     2.5085   34.375458    0.5630309     47.07752     -47.28016    33.8996    33.8934     0.7284     0.7141    27.1775    27.1734    7.02964    7.01183         16   0.0
+      27552   '11-JUL-2014 07:46:50.98'    177.000     0.7124   0.672992     0.6936   0.672511      77.20     0.02190     2.8564     2.5081   34.375252    0.7981899     47.07752     -47.28016    33.8920    33.8858     0.7050     0.6863    27.1728    27.1689    7.02483    7.01867         18   0.0
+      27571   '11-JUL-2014 07:46:51.77'    176.000     0.6987   0.672634     0.6785   0.672110      97.99     0.02210     2.8560     2.5079   34.421383    0.9171372     47.07752     -47.28016    33.8876    33.8805     0.6914     0.6713    27.1701    27.1656    7.01418    7.02347         21   0.0
+      27597   '11-JUL-2014 07:46:52.83'    175.000     0.6861   0.672300     0.6683   0.671842      98.63     0.02290     2.8542     2.5076   34.427967    0.7887255     47.07752     -47.28016    33.8834    33.8774     0.6790     0.6611    27.1674    27.1636    7.00364    7.01188         31   0.0
+      27634   '11-JUL-2014 07:46:54.38'    174.000     0.6803   0.672171     0.6681   0.671835      98.63     0.02630     2.8515     2.5054   34.460293    0.8993350     47.07752     -47.28016    33.8831    33.8778     0.6732     0.6609    27.1675    27.1640    6.99724    7.01148         40   0.0
+      27667   '11-JUL-2014 07:46:55.77'    173.000     0.6707   0.671883     0.6428   0.671110      98.63     0.02520     2.8493     2.5054   34.454628    0.7962524     47.07752     -47.28016    33.8782    33.8656     0.6636     0.6358    27.1641    27.1557    7.00350    7.02359         26   0.0
+      27689   '11-JUL-2014 07:46:56.68'    172.000     0.6175   0.670452     0.5962   0.669879      36.18     0.02540     2.8492     2.5059   34.454201    0.4842769     47.07752     -47.28016    33.8572    33.8485     0.6105     0.5893    27.1504    27.1446    7.01525    7.03054         19   0.0
+      27707   '11-JUL-2014 07:46:57.43'    171.000     0.5830   0.669577     0.5727   0.669296      99.74     0.02030     2.8484     2.5053   34.464733    0.8794177     47.07752     -47.28016    33.8468    33.8424     0.5761     0.5658    27.1440    27.1410    7.01002    7.02523         17   0.0
+      27724   '11-JUL-2014 07:46:58.12'    170.000     0.5698   0.669235     0.5622   0.669026      98.63     0.01810     2.8475     2.5046   34.471367    0.8762790     47.07752     -47.28016    33.8427    33.8394     0.5630     0.5554    27.1415    27.1392    7.01099    7.03012         17   0.0
+      27741   '11-JUL-2014 07:46:58.82'    169.000     0.5638   0.669067     0.5522   0.668768      98.63     0.01750     2.8464     2.5045   34.474815    0.8768809     47.07752     -47.28016    33.8404    33.8364     0.5571     0.5455    27.1400    27.1374    7.01374    7.03787         17   0.0
+      27760   '11-JUL-2014 07:46:59.61'    168.000     0.5514   0.668769     0.5376   0.668375      98.63     0.01890     2.8463     2.5047   34.500996    0.8308086     47.07752     -47.28016    33.8379    33.8310     0.5447     0.5309    27.1387    27.1339    7.02683    7.04624         21   0.0
+      27784   '11-JUL-2014 07:47:00.62'    167.000     0.5397   0.668447     0.5145   0.667802      98.63     0.01790     2.8468     2.5056   34.512348    0.8127165     47.07752     -47.28016    33.8333    33.8248     0.5331     0.5079    27.1356    27.1302    7.03226    7.05801         29   0.0
+      27820   '11-JUL-2014 07:47:02.12'    166.000     0.5266   0.668118     0.5096   0.667687      42.69     0.02080     2.8487     2.5072   34.511749    0.7495538     47.07752     -47.28016    33.8296    33.8244     0.5200     0.5031    27.1334    27.1302    7.05767    7.06278         41   0.0
+      27857   '11-JUL-2014 07:47:03.65'    165.000     0.5177   0.667875     0.5071   0.667556      85.67     0.02070     2.8507     2.5083   34.507046    0.5745476     47.07752     -47.28014    33.8267    33.8204     0.5111     0.5006    27.1316    27.1271    7.05717    7.06756         29   0.0
+      27880   '11-JUL-2014 07:47:04.64'    164.000     0.4756   0.666878     0.4598   0.666374      98.91     0.02330     2.8520     2.5090   34.502266    0.0919664     47.07752     -47.28014    33.8176    33.8066     0.4691     0.4534    27.1266    27.1186    7.06522    7.07955         21   0.0
+      27899   '11-JUL-2014 07:47:05.43'    163.000     0.4419   0.666000     0.4285   0.665622      98.63     0.02540     2.8521     2.5099   34.522488    0.0249457     47.07752     -47.28014    33.8058    33.7993     0.4356     0.4222    27.1190    27.1145    7.06296    7.09168         18   0.0
+      27917   '11-JUL-2014 07:47:06.15'    162.000     0.4252   0.665536     0.4134   0.665254      98.63     0.02430     2.8523     2.5107   34.535866    0.0049998     47.07752     -47.28014    33.7988    33.7958     0.4189     0.4072    27.1143    27.1126    7.06377    7.09307         17   0.0
+      27934   '11-JUL-2014 07:47:06.86'    161.000     0.4161   0.665314     0.4040   0.665014      98.63     0.02120     2.8523     2.5108   34.536938    0.0440974     47.07752     -47.28014    33.7968    33.7932     0.4099     0.3978    27.1132    27.1110    7.07378    7.09362         17   0.0
+      27952   '11-JUL-2014 07:47:07.62'    160.000     0.4082   0.665107     0.3938   0.664744      98.64     0.02150     2.8534     2.5117   34.557304   -0.0795367     47.07752     -47.28014    33.7944    33.7899     0.4021     0.3877    27.1117    27.1088    7.08142    7.10187         19   0.0
+      27974   '11-JUL-2014 07:47:08.53'    159.000     0.4001   0.664906     0.3687   0.664094      75.23     0.02200     2.8537     2.5125   34.562801   -0.0501519     47.07752     -47.28014    33.7927    33.7816     0.3940     0.3626    27.1108    27.1035    7.08611    7.10664         26   0.0
+      28004   '11-JUL-2014 07:47:09.79'    158.000     0.3745   0.664267     0.3430   0.663461      70.28     0.02120     2.8560     2.5141   34.562393   -0.1409962     47.07752     -47.28014    33.7855    33.7747     0.3685     0.3371    27.1064    27.0994    7.11278    7.12924         34   0.0
+      28039   '11-JUL-2014 07:47:11.23'    157.000     0.3548   0.663758     0.3297   0.663091      64.39     0.02420     2.8602     2.5183   34.570770   -0.1485207     47.07752     -47.28014    33.7791    33.7693     0.3488     0.3241    27.1023    27.0957    7.13825    7.16702         32   0.0
+      28065   '11-JUL-2014 07:47:12.34'    156.000     0.3255   0.663028     0.2972   0.662267      98.94     0.02320     2.8635     2.5222   34.593288   -0.1576975     47.07752     -47.28014    33.7708    33.7590     0.3196     0.2914    27.0972    27.0892    7.15724    7.17928         23   0.0
+      28086   '11-JUL-2014 07:47:13.20'    155.000     0.2836   0.661923     0.2664   0.661476      98.63     0.02560     2.8665     2.5242   34.584656   -0.1799497     47.07752     -47.28014    33.7552    33.7488     0.2778     0.2607    27.0869    27.0826    7.17063    7.18730         19   0.0
+      28105   '11-JUL-2014 07:47:13.98'    154.000     0.2519   0.661136     0.2312   0.660549      98.63     0.02660     2.8685     2.5260   34.571426   -0.2408179     47.07752     -47.28014    33.7462    33.7358     0.2462     0.2256    27.0814    27.0740    7.17638    7.19825         18   0.0
+      28124   '11-JUL-2014 07:47:14.77'    153.000     0.2267   0.660484     0.1923   0.659551      76.64     0.02530     2.8704     2.5275   34.571430   -0.1895531     47.07752     -47.28014    33.7377    33.7228     0.2211     0.1868    27.0758    27.0656    7.17237    7.20410         20   0.0
+      28144   '11-JUL-2014 07:47:15.63'    152.000     0.1995   0.659786     0.1707   0.659024      62.44     0.02350     2.8707     2.5289   34.592461   -0.2790876     47.07752     -47.28014    33.7288    33.7173     0.1939     0.1652    27.0700    27.0623    7.17470    7.21108         22   0.0
+      28169   '11-JUL-2014 07:47:16.65'    151.000     0.1842   0.659345     0.1571   0.658669      98.00     0.02110     2.8727     2.5302   34.596859   -0.2446934     47.07752     -47.28014    33.7213    33.7129     0.1787     0.1516    27.0648    27.0595    7.19278    7.21071         27   0.0
+      28200   '11-JUL-2014 07:47:17.96'    150.000     0.1631   0.658842     0.1458   0.658383      98.63     0.01900     2.8749     2.5317   34.599895   -0.3097135     47.07752     -47.28014    33.7167    33.7097     0.1577     0.1404    27.0622    27.0575    7.20127    7.22629         35   0.0
+      28233   '11-JUL-2014 07:47:19.35'    149.000     0.1539   0.658589     0.1494   0.658453      98.63     0.02320     2.8770     2.5336   34.597603   -0.3297059     47.07752     -47.28014    33.7128    33.7104     0.1485     0.1440    27.0596    27.0578    7.21433    7.23268         29   0.0
+      28258   '11-JUL-2014 07:47:20.38'    148.000     0.1453   0.658403     0.1316   0.657994      98.61     0.02380     2.8799     2.5352   34.593285   -0.3396238     47.07752     -47.28014    33.7126    33.7046     0.1399     0.1263    27.0599    27.0541    7.22765    7.24000         22   0.0
+      28277   '11-JUL-2014 07:47:21.18'    147.000     0.1269   0.657910     0.1116   0.657481      98.53     0.02500     2.8813     2.5361   34.593407   -0.3557898     47.07752     -47.28014    33.7055    33.6981     0.1216     0.1064    27.0551    27.0498    7.22294    7.25049         18   0.0
+      28295   '11-JUL-2014 07:47:21.90'    146.000     0.1055   0.657340     0.0930   0.657006      98.52     0.02150     2.8821     2.5376   34.597214   -0.4041144     47.07752     -47.28014    33.6974    33.6923     0.1003     0.0878    27.0496    27.0461    7.22265    7.26947         17   0.0
+      28312   '11-JUL-2014 07:47:22.61'    145.000     0.0939   0.657041     0.0768   0.656611      98.59     0.02150     2.8823     2.5396   34.598980   -0.3478771     47.07752     -47.28014    33.6939    33.6883     0.0887     0.0717    27.0473    27.0437    7.24351    7.29129         17   0.0
+      28331   '11-JUL-2014 07:47:23.41'    144.000     0.0827   0.656754     0.0646   0.656297      98.63     0.02420     2.8861     2.5427   34.598640   -0.4180932     47.07752     -47.28014    33.6905    33.6846     0.0776     0.0595    27.0452    27.0413    7.28899    7.32153         21   0.0
+      28356   '11-JUL-2014 07:47:24.44'    143.000     0.0626   0.656261     0.0456   0.655744      98.42     0.02620     2.8913     2.5484   34.596722   -0.4161447     47.07752     -47.28014    33.6852    33.6747     0.0576     0.0406    27.0420    27.0343    7.31521    7.36289         29   0.0
+      28388   '11-JUL-2014 07:47:25.77'    142.000     0.0481   0.655858     0.0375   0.655570      98.55     0.02320     2.8985     2.5571   34.577808   -0.4845470     47.07752     -47.28013    33.6789    33.6743     0.0432     0.0326    27.0376    27.0344    7.34790    7.41384         32   0.0
+      28416   '11-JUL-2014 07:47:26.94'    141.000     0.0428   0.655641     0.0263   0.655188      91.06     0.01950     2.9065     2.5658   34.572018   -0.4651260     47.07752     -47.28012    33.6731    33.6653     0.0379     0.0214    27.0332    27.0276    7.38863    7.43743         24   0.0
+      28437   '11-JUL-2014 07:47:27.83'    140.000     0.0034   0.654593    -0.0163   0.654025      40.66     0.01770     2.9130     2.5709   34.588406   -0.5566484     47.07752     -47.28012    33.6593    33.6471    -0.0030    -0.0211    27.0240    27.0151    7.40456    7.44044         19   0.0
+      28456   '11-JUL-2014 07:47:28.61'    139.000    -0.0327   0.653616    -0.0550   0.652995      98.62     0.01860     2.9169     2.5741   34.588524   -0.4946713     47.07752     -47.28012    33.6424    33.6317    -0.0374    -0.0598    27.0121    27.0046    7.41107    7.45158         18   0.0
+      28474   '11-JUL-2014 07:47:29.36'    138.000    -0.0520   0.653089    -0.0831   0.652227      98.27     0.02000     2.9209     2.5773   34.577118   -0.5425729     47.07752     -47.28012    33.6343    33.6195    -0.0567    -0.0877    27.0066    26.9961    7.42815    7.47258         18   0.0
+      28493   '11-JUL-2014 07:47:30.18'    137.000    -0.0748   0.652484    -0.1030   0.651667      98.63     0.01770     2.9256     2.5812   34.566830   -0.5356181     47.07752     -47.28012    33.6257    33.6101    -0.0795    -0.1076    27.0007    26.9895    7.45349    7.48944         22   0.0
+      28519   '11-JUL-2014 07:47:31.26'    136.000    -0.0941   0.651932    -0.1123   0.651373      98.26     0.01810     2.9321     2.5860   34.556179   -0.5674316     47.07752     -47.28012    33.6151    33.6043    -0.0986    -0.1169    26.9930    26.9852    7.47919    7.51592         31   0.0
+      28554   '11-JUL-2014 07:47:32.72'    135.000    -0.1063   0.651548    -0.1087   0.651475      88.10     0.01950     2.9407     2.5932   34.539967   -0.6088103     47.07751     -47.28012    33.6082    33.6067    -0.1108    -0.1132    26.9881    26.9870    7.50242    7.53807         37   0.0
+      28586   '11-JUL-2014 07:47:34.04'    134.000    -0.1086   0.651461    -0.1118   0.651345      49.66     0.02060     2.9476     2.5986   34.506104   -0.6642303     47.07751     -47.28012    33.6064    33.6033    -0.1131    -0.1163    26.9867    26.9844    7.51251    7.55751         26   0.0
+      28609   '11-JUL-2014 07:47:35.00'    133.000    -0.1273   0.650919    -0.1337   0.650691      98.89     0.01960     2.9520     2.6030   34.506966   -0.6326675     47.07750     -47.28012    33.5968    33.5908    -0.1318    -0.1381    26.9799    26.9753    7.52166    7.56932         20   0.0
+      28629   '11-JUL-2014 07:47:35.81'    132.000    -0.1427   0.650426    -0.1516   0.650144      98.13     0.02050     2.9552     2.6056   34.483505   -0.7060164     47.07750     -47.28012    33.5862    33.5799    -0.1471    -0.1559    26.9720    26.9674    7.53027    7.57292         20   0.0
+      28647   '11-JUL-2014 07:47:36.60'    131.000    -0.1494   0.650202    -0.1607   0.649877      98.17     0.02130     2.9582     2.6081   34.483517   -0.6429145     47.07750     -47.28012    33.5814    33.5754    -0.1537    -0.1651    26.9685    26.9642    7.53103    7.57917         18   0.0
+      28666   '11-JUL-2014 07:47:37.35'    130.000    -0.1596   0.649907    -0.1723   0.649578      98.00     0.02100     2.9602     2.6102   34.470490   -0.7004657     47.07750     -47.28012    33.5764    33.5716    -0.1639    -0.1766    26.9649    26.9617    7.53170    7.58207         18   0.0
+      28684   '11-JUL-2014 07:47:38.12'    129.000    -0.1700   0.649651    -0.1872   0.649222      98.63     0.02100     2.9624     2.6118   34.454304   -0.7112684     47.07750     -47.28012    33.5739    33.5683    -0.1743    -0.1914    26.9634    26.9597    7.54214    7.58372         19   0.0
+      28703   '11-JUL-2014 07:47:38.93'    128.000    -0.1790   0.649427    -0.2020   0.648846      97.95     0.02170     2.9645     2.6134   34.454212   -0.6841533     47.07750     -47.28012    33.5716    33.5638    -0.1832    -0.2062    26.9620    26.9568    7.54009    7.58574         20   0.0
+      28726   '11-JUL-2014 07:47:39.88'    127.000    -0.1976   0.648940    -0.2074   0.648679      98.53     0.02130     2.9664     2.6147   34.413986   -0.7564092     47.07750     -47.28012    33.5650    33.5608    -0.2018    -0.2115    26.9575    26.9545    7.54486    7.58862         26   0.0
+      28757   '11-JUL-2014 07:47:41.15'    126.000    -0.1997   0.648875    -0.2005   0.648832      98.17     0.02340     2.9684     2.6165   34.394413   -0.7512056     47.07748     -47.28014    33.5641    33.5625    -0.2038    -0.2046    26.9569    26.9556    7.55358    7.59644         37   0.0
+      28796   '11-JUL-2014 07:47:42.79'    125.000    -0.1980   0.648881    -0.1968   0.648897      96.95     0.01970     2.9720     2.6183   34.356659   -0.7577034     47.07748     -47.28015    33.5632    33.5628    -0.2021    -0.2009    26.9561    26.9557    7.56369    7.59244         36   0.0
+      28825   '11-JUL-2014 07:47:43.98'    124.000    -0.1956   0.648910    -0.1986   0.648815      98.69     0.01980     2.9742     2.6192   34.323074   -0.8041098     47.07748     -47.28016    33.5628    33.5606    -0.1996    -0.2026    26.9556    26.9540    7.55827    7.59912         22   0.0
+      28844   '11-JUL-2014 07:47:44.78'    123.000    -0.2013   0.648743    -0.2042   0.648651      96.34     0.02010     2.9749     2.6202   34.324951   -0.7493154     47.07748     -47.28016    33.5601    33.5581    -0.2053    -0.2082    26.9537    26.9522    7.55098    7.59685         17   0.0
+      28860   '11-JUL-2014 07:47:45.45'    122.000    -0.2136   0.648425    -0.2225   0.648186      95.60     0.01900     2.9750     2.6202   34.301682   -0.8083563     47.07748     -47.28016    33.5561    33.5522    -0.2175    -0.2264    26.9511    26.9483    7.54227    7.58640         16   0.0
+      28876   '11-JUL-2014 07:47:46.11'    121.000    -0.2292   0.648027    -0.2370   0.647815      40.01     0.01900     2.9741     2.6197   34.284748   -0.7966717     47.07748     -47.28016    33.5512    33.5477    -0.2331    -0.2409    26.9478    26.9453    7.53545    7.58772         16   0.0
+      28892   '11-JUL-2014 07:47:46.80'    120.000    -0.2358   0.647841    -0.2443   0.647605      76.33     0.02060     2.9737     2.6199   34.288113   -0.7552772     47.07748     -47.28016    33.5484    33.5443    -0.2396    -0.2481    26.9458    26.9429    7.53844    7.59964         18   0.0
+      28913   '11-JUL-2014 07:47:47.68'    119.000    -0.2405   0.647701    -0.2509   0.647438      95.48     0.02330     2.9736     2.6207   34.271946   -0.8449268     47.07748     -47.28016    33.5463    33.5427    -0.2444    -0.2547    26.9443    26.9419    7.54468    7.60929         25   0.0
+      28946   '11-JUL-2014 07:47:49.05'    118.000    -0.2379   0.647762    -0.2464   0.647537      97.43     0.02120     2.9742     2.6221   34.251904   -0.8230386     47.07748     -47.28015    33.5474    33.5440    -0.2417    -0.2498    26.9451    26.9428    7.56175    7.61049         40   0.0
+      28984   '11-JUL-2014 07:47:50.63'    117.000    -0.2317   0.647924    -0.2421   0.647632      96.62     0.01820     2.9768     2.6235   34.216377   -0.8467997     47.07748     -47.28014    33.5505    33.5452    -0.2355    -0.2459    26.9473    26.9435    7.57367    7.62056         31   0.0
+      29009   '11-JUL-2014 07:47:51.66'    116.000    -0.2559   0.647299    -0.2673   0.646955      96.48     0.01690     2.9787     2.6253   34.219105   -0.8951800     47.07748     -47.28014    33.5421    33.5356    -0.2596    -0.2706    26.9416    26.9369    7.58665    7.64069         21   0.0
+      29028   '11-JUL-2014 07:47:52.46'    115.000    -0.3007   0.646143    -0.3163   0.645695      98.63     0.01840     2.9802     2.6271   34.219776   -0.8476952     47.07748     -47.28014    33.5258    33.5174    -0.3044    -0.3199    26.9306    26.9244    7.60313    7.66062         19   0.0
+      29046   '11-JUL-2014 07:47:53.20'    114.000    -0.3310   0.645358    -0.3460   0.644924      98.63     0.02220     2.9814     2.6288   34.219780   -0.8713852     47.07748     -47.28014    33.5149    33.5066    -0.3346    -0.3496    26.9231    26.9170    7.62648    7.67298         17   0.0
+      29064   '11-JUL-2014 07:47:53.95'    113.000    -0.3405   0.645052    -0.3558   0.644648      93.75     0.02330     2.9844     2.6304   34.219780   -0.9189233     47.07748     -47.28014    33.5084    33.5021    -0.3440    -0.3593    26.9183    26.9139    7.63347    7.67352         19   0.0
+      29083   '11-JUL-2014 07:47:54.76'    112.000    -0.3504   0.644784    -0.3627   0.644450      96.03     0.02150     2.9859     2.6315   34.219055   -0.8753698     47.07748     -47.28014    33.5046    33.4990    -0.3539    -0.3662    26.9156    26.9116    7.62283    7.66677         20   0.0
+      29105   '11-JUL-2014 07:47:55.68'    111.000    -0.3586   0.644538    -0.3654   0.644332      95.16     0.02050     2.9867     2.6318   34.208218   -0.9565672     47.07748     -47.28014    33.5001    33.4958    -0.3621    -0.3688    26.9124    26.9091    7.61595    7.65241         24   0.0
+      29131   '11-JUL-2014 07:47:56.76'    110.000    -0.3614   0.644437    -0.3655   0.644253      96.74     0.01930     2.9875     2.6303   34.204121   -0.9197626     47.07748     -47.28014    33.4980    33.4920    -0.3648    -0.3687    26.9107    26.9061    7.60501    7.62282         28   0.0
+      29161   '11-JUL-2014 07:47:57.98'    109.000    -0.3655   0.644250    -0.3726   0.644007      98.64     0.02080     2.9861     2.6271   34.178677   -0.9692214     47.07748     -47.28014    33.4924    33.4864    -0.3689    -0.3760    26.9064    26.9018    7.58928    7.60201         30   0.0
+      29189   '11-JUL-2014 07:47:59.17'    108.000    -0.3707   0.644075    -0.3814   0.643740      93.64     0.02460     2.9839     2.6234   34.172543   -0.9392890     47.07748     -47.28014    33.4887    33.4813    -0.3740    -0.3847    26.9037    26.8981    7.56230    7.58061         27   0.0
+      29215   '11-JUL-2014 07:48:00.23'    107.000    -0.3719   0.644071    -0.4105   0.643031      98.64     0.02320     2.9804     2.6194   34.153225   -0.9576797     47.07748     -47.28014    33.4904    33.4733    -0.3752    -0.4138    26.9051    26.8930    7.54305    7.56359         24   0.0
+      29238   '11-JUL-2014 07:48:01.20'    106.000    -0.3932   0.643465    -0.4533   0.642059      98.39     0.01910     2.9775     2.6162   34.155197   -0.9546799     47.07748     -47.28014    33.4798    33.4653    -0.3965    -0.4565    26.8974    26.8883    7.54818    7.55992         22   0.0
+      29260   '11-JUL-2014 07:48:02.11'    105.000    -0.4378   0.642443    -0.4884   0.641290      98.12     0.02480     2.9756     2.6133   34.152733   -0.9890646     47.07748     -47.28012    33.4709    33.4604    -0.4410    -0.4915    26.8921    26.8858    7.55517    7.55585         21   0.0
+      29280   '11-JUL-2014 07:48:02.96'    104.000    -0.4792   0.641608    -0.5132   0.640738      98.65     0.02660     2.9733     2.6099   34.150867   -0.9537665     47.07748     -47.28012    33.4691    33.4566    -0.4823    -0.5163    26.8925    26.8838    7.53639    7.55028         20   0.0
+      29300   '11-JUL-2014 07:48:03.79'    103.000    -0.5103   0.640875    -0.5461   0.639945      94.21     0.02370     2.9693     2.6071   34.159126   -0.8630160     47.07748     -47.28012    33.4619    33.4478    -0.5133    -0.5491    26.8880    26.8781    7.50957    7.54261         20   0.0
+      29321   '11-JUL-2014 07:48:04.66'    102.000    -0.5313   0.640313    -0.5755   0.639260      95.80     0.02140     2.9639     2.6033   34.161148   -1.0185498     47.07748     -47.28012    33.4536    33.4415    -0.5343    -0.5785    26.8822    26.8742    7.49499    7.52727         23   0.0
+      29345   '11-JUL-2014 07:48:05.65'    101.000    -0.5485   0.639878    -0.5913   0.638877      98.59     0.02200     2.9595     2.5987   34.173279   -0.9713124     47.07748     -47.28012    33.4478    33.4374    -0.5514    -0.5942    26.8781    26.8715    7.50512    7.51212         25   0.0
+      29372   '11-JUL-2014 07:48:06.80'    100.000    -0.5731   0.639319    -0.6092   0.638442      93.53     0.02030     2.9548     2.5941   34.176853   -0.3961814     47.07748     -47.28012    33.4433    33.4327    -0.5760    -0.6121    26.8755    26.8684    7.48361    7.51125         29   0.0
+      29401   '11-JUL-2014 07:48:07.98'     99.000    -0.6032   0.638593    -0.6369   0.637767      98.19     0.01670     2.9490     2.5899   34.176357   -0.4187913     47.07748     -47.28012    33.4354    33.4248    -0.6060    -0.6397    26.8703    26.8632    7.47771    7.50077         27   0.0
+      29426   '11-JUL-2014 07:48:09.02'     98.000    -0.6096   0.638443    -0.6817   0.636661      84.92     0.01950     2.9444     2.5858   34.176464   -0.4205475     47.07748     -47.28012    33.4343    33.4111    -0.6124    -0.6844    26.8698    26.8538    7.45590    7.48087         23   0.0
+      29448   '11-JUL-2014 07:48:09.94'     97.000    -0.6710   0.637044    -0.7594   0.634851      73.18     0.01900     2.9392     2.5818   34.206577   -0.4492903     47.07748     -47.28012    33.4220    33.3929    -0.6737    -0.7621    26.8622    26.8421    7.45043    7.47617         21   0.0
+      29468   '11-JUL-2014 07:48:10.79'     96.000    -0.7487   0.635208    -0.8088   0.633722      97.34     0.01160     2.9354     2.5779   34.207222   -0.4481075     47.07748     -47.28012    33.4023    33.3826    -0.7513    -0.8114    26.8493    26.8357    7.46139    7.48832         21   0.0
+      29489   '11-JUL-2014 07:48:11.66'     95.000    -0.8061   0.633857    -0.8371   0.633009      98.63     0.01580     2.9311     2.5753   34.242641   -0.5300621     47.07748     -47.28012    33.3881    33.3731    -0.8087    -0.8396    26.8400    26.8290    7.46035    7.49942         21   0.0
+      29513   '11-JUL-2014 07:48:12.65'     94.000    -0.8183   0.633485    -0.8884   0.631768      94.63     0.01820     2.9266     2.5721   34.250214   -0.5164799     47.07748     -47.28012    33.3806    33.3585    -0.8208    -0.8909    26.8344    26.8191    7.46907    7.50410         26   0.0
+      29541   '11-JUL-2014 07:48:13.83'     93.000    -0.8414   0.632766    -0.9310   0.630834      96.05     0.02040     2.9240     2.5709   34.295509   -0.5892703     47.07748     -47.28012    33.3650    33.3519    -0.8439    -0.9333    26.8226    26.8152    7.48672    7.53139         30   0.0
+      29569   '11-JUL-2014 07:48:15.00'     92.000    -0.8823   0.631987    -0.9651   0.630046      98.67     0.02530     2.9228     2.5708   34.303871   -0.6099561     47.07748     -47.28012    33.3657    33.3445    -0.8847    -0.9675    26.8247    26.8104    7.50136    7.54232         26   0.0
+      29592   '11-JUL-2014 07:48:15.97'     91.000    -0.9349   0.630836    -1.0118   0.628902      90.20     0.02830     2.9216     2.5707   34.329590   -0.6541624     47.07748     -47.28011    33.3573    33.3300    -0.9372    -1.0140    26.8198    26.8004    7.51689    7.55529         21   0.0
+      29613   '11-JUL-2014 07:48:16.82'     90.000    -1.0148   0.628761    -1.0622   0.627643      69.76     0.02560     2.9217     2.5706   34.325974   -0.6542182     47.07748     -47.28010    33.3258    33.3131    -1.0170    -1.0644    26.7970    26.7884    7.53697    7.57361         20   0.0
+      29633   '11-JUL-2014 07:48:17.66'     89.000    -1.0722   0.627406    -1.1040   0.626623      59.33     0.02050     2.9208     2.5706   34.381367   -0.7027580     47.07748     -47.28010    33.3109    33.3004    -1.0743    -1.1061    26.7869    26.7795    7.53860    7.58041         21   0.0
+      29655   '11-JUL-2014 07:48:18.56'     88.000    -1.0994   0.626719    -1.1245   0.626132      94.64     0.01740     2.9201     2.5696   34.395313   -0.7183154     47.07748     -47.28010    33.3015    33.2950    -1.1015    -1.1266    26.7802    26.7758    7.54362    7.56572         23   0.0
+      29680   '11-JUL-2014 07:48:19.61'     87.000    -1.1149   0.626340    -1.1328   0.625940      92.79     0.01580     2.9186     2.5673   34.423996   -0.8126451     47.07748     -47.28010    33.2972    33.2932    -1.1170    -1.1349    26.7772    26.7746    7.52538    7.55793         27   0.0
+      29707   '11-JUL-2014 07:48:20.77'     86.000    -1.1137   0.626341    -1.1235   0.626163      95.09     0.02220     2.9165     2.5658   34.435368   -0.8593358     47.07748     -47.28010    33.2965    33.2970    -1.1158    -1.1256    26.7767    26.7773    7.53841    7.56876         27   0.0
+      29733   '11-JUL-2014 07:48:21.84'     85.000    -1.1205   0.626162    -1.1365   0.625813      91.45     0.02630     2.9167     2.5657   34.452518   -0.8724796     47.07748     -47.28010    33.2941    33.2915    -1.1225    -1.1385    26.7749    26.7734    7.55159    7.57867         25   0.0
+      29757   '11-JUL-2014 07:48:22.82'     84.000    -1.1269   0.626029    -1.1443   0.625630      97.07     0.02280     2.9173     2.5659   34.454189   -0.8761548     47.07748     -47.28010    33.2940    33.2901    -1.1288    -1.1463    26.7751    26.7724    7.55851    7.58908         23   0.0
+      29780   '11-JUL-2014 07:48:23.77'     83.000    -1.1399   0.625716    -1.1547   0.625373      98.64     0.02120     2.9178     2.5669   34.480228   -0.8948024     47.07748     -47.28009    33.2908    33.2871    -1.1418    -1.1566    26.7729    26.7704    7.55639    7.59810         22   0.0
+      29801   '11-JUL-2014 07:48:24.68'     82.000    -1.1669   0.625088    -1.1800   0.624660      93.92     0.02080     2.9174     2.5678   34.483578   -0.8974850     47.07748     -47.28009    33.2846    33.2741    -1.1688    -1.1819    26.7687    26.7606    7.55950    7.61204         21   0.0
+      29822   '11-JUL-2014 07:48:25.56'     81.000    -1.2151   0.623945    -1.2418   0.623220      92.59     0.02200     2.9182     2.5690   34.503452   -0.9771776     47.07748     -47.28010    33.2717    33.2588    -1.2169    -1.2436    26.7598    26.7502    7.57549    7.62863         21   0.0
+      29844   '11-JUL-2014 07:48:26.45'     80.000    -1.2614   0.622777    -1.2956   0.621928      98.61     0.01990     2.9181     2.5700   34.512775   -1.0098145     47.07748     -47.28010    33.2552    33.2433    -1.2632    -1.2974    26.7478    26.7392    7.58227    7.63446         23   0.0
+      29868   '11-JUL-2014 07:48:27.45'     79.000    -1.2992   0.621952    -1.3335   0.621058      88.66     0.02030     2.9183     2.5705   34.539154   -0.9944121     47.07748     -47.28010    33.2493    33.2349    -1.3009    -1.3353    26.7442    26.7335    7.59993    7.64605         26   0.0
+      29895   '11-JUL-2014 07:48:28.59'     78.000    -1.3148   0.621545    -1.3588   0.620391      80.75     0.01930     2.9196     2.5718   34.560253   -1.2858061     47.07748     -47.28010    33.2433    33.2242    -1.3165    -1.3605    26.7398    26.7256    7.61548    7.66079         28   0.0
+      29923   '11-JUL-2014 07:48:29.75'     77.000    -1.3273   0.621182    -1.3839   0.619820      98.58     0.02070     2.9211     2.5734   34.570858   -1.7722763     47.07748     -47.28009    33.2359    33.2192    -1.3285    -1.3856    26.7341    26.7223    7.63012    7.67961         27   0.0
+      29948   '11-JUL-2014 07:48:30.81'     76.000    -1.3595   0.620368    -1.4067   0.619279      90.83     0.02380     2.9242     2.5761   34.577511   -1.4565693     47.07748     -47.28008    33.2250    33.2132    -1.3611    -1.4083    26.7262    26.7180    7.67279    7.70394         24   0.0
+      29973   '11-JUL-2014 07:48:31.81'     75.000    -1.4101   0.619166    -1.4250   0.618783      96.31     0.02420     2.9277     2.5786   34.594028   -1.6794454     47.07748     -47.28008    33.2109    33.2050    -1.4116    -1.4266    26.7163    26.7119    7.68486    7.72942         24   0.0
+      29996   '11-JUL-2014 07:48:32.78'     74.000    -1.4385   0.618422    -1.4450   0.618217      98.52     0.02100     2.9306     2.5814   34.595417   -1.6945769     47.07748     -47.28008    33.1992    33.1943    -1.4400    -1.4465    26.7076    26.7038    7.70006    7.74345         22   0.0
+      30017   '11-JUL-2014 07:48:33.66'     73.000    -1.4646   0.617713    -1.4727   0.617478      78.83     0.01680     2.9325     2.5833   34.614140   -1.2981474     47.07748     -47.28008    33.1870    33.1821    -1.4661    -1.4742    26.6984    26.6947    7.69219    7.74231         20   0.0
+      30036   '11-JUL-2014 07:48:34.46'     72.000    -1.4870   0.617074    -1.4982   0.616817      89.13     0.01700     2.9333     2.5843   34.617718   -1.3268508     47.07748     -47.28008    33.1748    33.1720    -1.4884    -1.4996    26.6891    26.6872    7.69561    7.74693         19   0.0
+      30055   '11-JUL-2014 07:48:35.25'     71.000    -1.5093   0.616531    -1.5165   0.616361      87.38     0.02000     2.9343     2.5853   34.621544   -1.4600308     47.07748     -47.28006    33.1681    33.1661    -1.5107    -1.5179    26.6843    26.6829    7.70197    7.75111         19   0.0
+      30076   '11-JUL-2014 07:48:36.12'     70.000    -1.5204   0.616276    -1.5302   0.616030      44.30     0.02070     2.9358     2.5861   34.629936   -1.5386503     47.07748     -47.28006    33.1660    33.1624    -1.5218    -1.5316    26.6829    26.6802    7.71829    7.75836         23   0.0
+      30102   '11-JUL-2014 07:48:37.21'     69.000    -1.5263   0.616143    -1.5386   0.615832      88.87     0.02380     2.9378     2.5877   34.630035   -1.2992885     47.07748     -47.28006    33.1654    33.1606    -1.5277    -1.5400    26.6825    26.6790    7.73017    7.77364         30   0.0
+      30134   '11-JUL-2014 07:48:38.53'     68.000    -1.5237   0.616212    -1.5381   0.615819      90.64     0.02110     2.9402     2.5905   34.630035   -1.3212022     47.07748     -47.28006    33.1672    33.1599    -1.5251    -1.5394    26.6839    26.6784    7.73356    7.79046         31   0.0
+      30162   '11-JUL-2014 07:48:39.71'     67.000    -1.5289   0.616057    -1.5440   0.615677      85.55     0.02090     2.9431     2.5929   34.616302   -1.3326714     47.07746     -47.28006    33.1646    33.1586    -1.5304    -1.5453    26.6820    26.6775    7.74978    7.79142         26   0.0
+      30185   '11-JUL-2014 07:48:40.66'     66.000    -1.5577   0.615307    -1.5642   0.615165      81.05     0.02170     2.9454     2.5945   34.614697   -1.3369646     47.07746     -47.28006    33.1527    33.1516    -1.5590    -1.5651    26.6730    26.6724    7.75917    7.80440         21   0.0
+      30206   '11-JUL-2014 07:48:41.53'     65.000    -1.5822   0.614687    -1.5757   0.614870      77.93     0.02020     2.9467     2.5961   34.624264   -1.3700285     47.07746     -47.28006    33.1438    33.1470    -1.5835    -1.5770    26.6665    26.6689    7.76659    7.81569         20   0.0
+      30226   '11-JUL-2014 07:48:42.39'     64.000    -1.5946   0.614326    -1.5868   0.614519      46.02     0.01830     2.9489     2.5977   34.630116   -1.3761533     47.07746     -47.28006    33.1368    33.1396    -1.5958    -1.5880    26.6611    26.6632    7.77406    7.82896         21   0.0
+      30248   '11-JUL-2014 07:48:43.29'     63.000    -1.6021   0.614114    -1.6031   0.614082      98.41     0.01970     2.9502     2.5998   34.628765   -1.3950996     47.07746     -47.28006    33.1332    33.1325    -1.6033    -1.6043    26.6583    26.6578    7.77413    7.83764         23   0.0
+      30271   '11-JUL-2014 07:48:44.26'     62.000    -1.6071   0.613964    -1.6131   0.613822      98.63     0.02090     2.9516     2.6013   34.622185   -1.4249201     47.07746     -47.28006    33.1305    33.1287    -1.6083    -1.6143    26.6563    26.6550    7.78445    7.83221         24   0.0
+      30297   '11-JUL-2014 07:48:45.33'     61.000    -1.6153   0.613754    -1.6209   0.613619      87.80     0.02220     2.9540     2.6023   34.617020   -1.4335797     47.07746     -47.28004    33.1278    33.1260    -1.6165    -1.6221    26.6543    26.6530    7.78339    7.82985         27   0.0
+      30324   '11-JUL-2014 07:48:46.44'     60.000    -1.6219   0.613579    -1.6265   0.613462      98.64     0.01730     2.9548     2.6036   34.609745   -1.4444476     47.07746     -47.28004    33.1254    33.1235    -1.6230    -1.6276    26.6525    26.6511    7.78964    7.84718         26   0.0
+      30348   '11-JUL-2014 07:48:47.46'     59.000    -1.6234   0.613493    -1.6306   0.613332      96.45     0.01840     2.9563     2.6051   34.616642   -1.4550387     47.07746     -47.28004    33.1225    33.1210    -1.6245    -1.6317    26.6502    26.6492    7.78747    7.84352         23   0.0
+      30370   '11-JUL-2014 07:48:48.38'     58.000    -1.6355   0.613173    -1.6332   0.613247      86.50     0.01890     2.9575     2.6057   34.618187   -1.4640515     47.07744     -47.28006    33.1177    33.1195    -1.6366    -1.6343    26.6466    26.6480    7.79896    7.84358         21   0.0
+      30392   '11-JUL-2014 07:48:49.28'     57.000    -1.6405   0.613039    -1.6373   0.613125      98.78     0.01960     2.9583     2.6066   34.620068   -1.4770089     47.07744     -47.28004    33.1159    33.1174    -1.6415    -1.6383    26.6452    26.6464    7.79466    7.85261         22   0.0
+      30414   '11-JUL-2014 07:48:50.21'     56.000    -1.6422   0.612973    -1.6410   0.613025      98.63     0.02150     2.9592     2.6076   34.618572   -1.5021350     47.07744     -47.28004    33.1145    33.1163    -1.6433    -1.6420    26.6442    26.6456    7.79702    7.86177         23   0.0
+      30437   '11-JUL-2014 07:48:51.19'     55.000    -1.6442   0.612911    -1.6439   0.612941      70.85     0.02510     2.9599     2.6094   34.611729   -1.5083374     47.07744     -47.28004    33.1137    33.1151    -1.6452    -1.6449    26.6436    26.6447    7.80165    7.86893         24   0.0
+      30462   '11-JUL-2014 07:48:52.21'     54.000    -1.6468   0.612838    -1.6456   0.612870      92.08     0.02160     2.9615     2.6107   34.593048   -1.5226380     47.07744     -47.28004    33.1128    33.1133    -1.6478    -1.6466    26.6429    26.6433    7.81694    7.87023         25   0.0
+      30487   '11-JUL-2014 07:48:53.24'     53.000    -1.6488   0.612760    -1.6500   0.612755      73.06     0.02160     2.9635     2.6121   34.590199   -1.5260868     47.07744     -47.28004    33.1111    33.1120    -1.6498    -1.6508    26.6415    26.6424    7.81367    7.87291         25   0.0
+      30512   '11-JUL-2014 07:48:54.29'     52.000    -1.6550   0.612573    -1.6517   0.612673      85.64     0.02100     2.9643     2.6132   34.588428   -1.5323532     47.07744     -47.28004    33.1075    33.1098    -1.6560    -1.6527    26.6388    26.6406    7.81521    7.87055         25   0.0
+      30536   '11-JUL-2014 07:48:55.31'     51.000    -1.6601   0.612403    -1.6563   0.612527      98.88     0.02220     2.9655     2.6136   34.588634   -1.5371176     47.07742     -47.28004    33.1037    33.1068    -1.6610    -1.6572    26.6358    26.6382    7.82828    7.86748         23   0.0
+      30559   '11-JUL-2014 07:48:56.23'     50.000    -1.6646   0.612230    -1.6611   0.612366      98.63     0.02100     2.9675     2.6139   34.587444   -1.5422741     47.07742     -47.28004    33.0990    33.1032    -1.6655    -1.6620    26.6321    26.6355    7.82651    7.87409         21   0.0
+      30579   '11-JUL-2014 07:48:57.09'     49.000    -1.6665   0.612135    -1.6641   0.612238      82.54     0.02480     2.9677     2.6147   34.585373   -1.5458663     47.07742     -47.28003    33.0961    33.0995    -1.6674    -1.6650    26.6298    26.6325    7.82202    7.87960         21   0.0
+      30600   '11-JUL-2014 07:48:57.94'     48.000    -1.6659   0.612103    -1.6656   0.612147      98.36     0.02480     2.9685     2.6156   34.571724   -1.5658810     47.07742     -47.28002    33.0941    33.0965    -1.6668    -1.6665    26.6282    26.6301    7.82415    7.88940         21   0.0
+      30622   '11-JUL-2014 07:48:58.89'     47.000    -1.6638   0.612091    -1.6639   0.612114      98.64     0.02350     2.9695     2.6171   34.570862   -1.5652083     47.07742     -47.28002    33.0918    33.0933    -1.6647    -1.6648    26.6262    26.6274    7.83372    7.89109         25   0.0
+      30650   '11-JUL-2014 07:49:00.06'     46.000    -1.6616   0.612065    -1.6608   0.612096      63.56     0.02350     2.9709     2.6180   34.563110   -1.5808147     47.07742     -47.28002    33.0884    33.0893    -1.6625    -1.6617    26.6234    26.6242    7.82892    7.88144         31   0.0
+      30682   '11-JUL-2014 07:49:01.38'     45.000    -1.6598   0.612001    -1.6594   0.612040      74.98     0.02320     2.9718     2.6185   34.553200   -1.5811965     47.07742     -47.28002    33.0832    33.0850    -1.6606    -1.6602    26.6192    26.6206    7.83003    7.88838         30   0.0
+      30708   '11-JUL-2014 07:49:02.47'     44.000    -1.6534   0.611972    -1.6577   0.611979      96.33     0.02430     2.9731     2.6201   34.541981   -1.5807663     47.07742     -47.28002    33.0750    33.0801    -1.6542    -1.6585    26.6123    26.6166    7.84059    7.90319         23   0.0
+      30729   '11-JUL-2014 07:49:03.33'     43.000    -1.6469   0.612029    -1.6507   0.612014      77.85     0.02210     2.9740     2.6214   34.542126   -1.5847551     47.07740     -47.28002    33.0717    33.0751    -1.6477    -1.6515    26.6095    26.6123    7.83754    7.90024         19   0.0
+      30747   '11-JUL-2014 07:49:04.09'     42.000    -1.6435   0.612063    -1.6449   0.612065      91.09     0.02060     2.9750     2.6223   34.542126   -1.5908281     47.07740     -47.28002    33.0705    33.0722    -1.6443    -1.6456    26.6085    26.6099    7.84821    7.90615         18   0.0
+      30766   '11-JUL-2014 07:49:04.88'     41.000    -1.6412   0.612089    -1.6414   0.612099      98.47     0.01700     2.9768     2.6239   34.542126   -1.5909646     47.07740     -47.28002    33.0701    33.0710    -1.6419    -1.6421    26.6081    26.6088    7.85382    7.92075         20   0.0
+      30788   '11-JUL-2014 07:49:05.78'     40.000    -1.6398   0.612095    -1.6397   0.612113      87.68     0.02120     2.9783     2.6260   34.538990   -1.5909646     47.07740     -47.28002    33.0696    33.0705    -1.6406    -1.6404    26.6076    26.6083    7.85324    7.92926         23   0.0
+      30813   '11-JUL-2014 07:49:06.83'     39.000    -1.6386   0.612101    -1.6377   0.612130      86.66     0.02610     2.9798     2.6287   34.536930   -1.5913069     47.07739     -47.28002    33.0692    33.0700    -1.6393    -1.6384    26.6073    26.6079    7.85789    7.93706         28   0.0
+      30841   '11-JUL-2014 07:49:08.00'     38.000    -1.6307   0.612195    -1.6288   0.612239      93.96     0.02840     2.9824     2.6311   34.526962   -1.5909656     47.07738     -47.28002    33.0666    33.0672    -1.6314    -1.6295    26.6049    26.6054    7.88330    7.94842         27   0.0
+      30867   '11-JUL-2014 07:49:09.09'     37.000    -1.6132   0.612409    -1.6149   0.612411      83.46     0.02920     2.9867     2.6350   34.523941   -1.5897855     47.07738     -47.28002    33.0605    33.0625    -1.6139    -1.6156    26.5996    26.6013    7.91453    7.99349         25   0.0
+      30890   '11-JUL-2014 07:49:10.05'     36.000    -1.6013   0.612572    -1.6022   0.612584      98.50     0.02770     2.9919     2.6412   34.512924   -1.5817163     47.07738     -47.28002    33.0576    33.0593    -1.6020    -1.6028    26.5969    26.5983    7.95964    8.05704         22   0.0
+      30912   '11-JUL-2014 07:49:10.94'     35.000    -1.5870   0.612805    -1.5866   0.612842      86.11     0.02930     2.9994     2.6499   34.512135   -1.5812047     47.07738     -47.28001    33.0561    33.0578    -1.5876    -1.5872    26.5953    26.5967    8.03138    8.14371         21   0.0
+      30933   '11-JUL-2014 07:49:11.83'     34.000    -1.5633   0.613171    -1.5576   0.613300      58.71     0.03300     3.0105     2.6627   34.507957   -1.5811965     47.07738     -47.28000    33.0520    33.0534    -1.5639    -1.5583    26.5914    26.5924    8.12612    8.26918         21   0.0
+      30955   '11-JUL-2014 07:49:12.76'     33.000    -1.5457   0.613433    -1.5406   0.613542      93.41     0.03510     3.0277     2.6830   34.504307   -1.5811965     47.07738     -47.28000    33.0487    33.0495    -1.5463    -1.5412    26.5883    26.5887    8.26015    8.42397         24   0.0
+      30979   '11-JUL-2014 07:49:13.77'     32.000    -1.5321   0.613625    -1.5255   0.613768      98.62     0.04660     3.0520     2.7082   34.479328   -1.5730839     47.07737     -47.28000    33.0456    33.0467    -1.5327    -1.5261    26.5854    26.5861    8.40840    8.53023         24   0.0
+      31004   '11-JUL-2014 07:49:14.81'     31.000    -1.5017   0.614080    -1.5014   0.614141      85.93     0.09900     3.0819     2.7336   34.473381   -1.5714304     47.07736     -47.28000    33.0393    33.0426    -1.5023    -1.5020    26.5795    26.5821    8.52875    8.60686         26   0.0
+      31030   '11-JUL-2014 07:49:15.86'     30.000    -1.4433   0.614931    -1.4407   0.615100      95.83     0.20160     3.1128     2.7598   34.470058   -1.5468140     47.07736     -47.28000    33.0256    33.0327    -1.4439    -1.4413    26.5667    26.5724    8.64802    8.75325         24   0.0
+      31054   '11-JUL-2014 07:49:16.86'     29.000    -1.3811   0.615901    -1.3701   0.616147      98.66     0.27470     3.1482     2.7927   34.470085   -1.5449538     47.07736     -47.28000    33.0145    33.0168    -1.3817    -1.3707    26.5561    26.5576    8.83526    8.96856         24   0.0
+      31077   '11-JUL-2014 07:49:17.81'     28.000    -1.3164   0.616914    -1.3060   0.617178      85.62     0.27470     3.1868     2.8312   34.421528   -1.5238996     47.07736     -47.28000    33.0033    33.0074    -1.3170    -1.3066    26.5451    26.5481    9.03027    9.24296         22   0.0
+      31099   '11-JUL-2014 07:49:18.74'     27.000    -1.2539   0.617876    -1.2374   0.618273      65.56     0.24360     3.2338     2.8806   34.419189   -1.5225972     47.07736     -47.28000    32.9914    32.9966    -1.2545    -1.2380    26.5336    26.5373    9.27929    9.51028         23   0.0
+      31122   '11-JUL-2014 07:49:19.70'     26.000    -1.1823   0.619012    -1.1348   0.620007      56.44     0.24210     3.2878     2.9340   34.350132   -1.4752918     47.07736     -47.28000    32.9797    32.9857    -1.1828    -1.1353    26.5219    26.5253    9.47458    9.76668         23   0.0
+      31146   '11-JUL-2014 07:49:20.72'     25.000    -1.0887   0.620768    -1.0229   0.621974      88.48     0.19390     3.3499     3.0003   34.336216   -1.4638176     47.07736     -47.27999    32.9801    32.9783    -1.0892    -1.0235    26.5193    26.5157    9.76126   10.01841         25   0.0
+      31172   '11-JUL-2014 07:49:21.78'     24.000    -0.9636   0.622947    -0.8902   0.624419      88.12     0.15410     3.4247     3.0635   34.247070   -1.4154091     47.07735     -47.27998    32.9711    32.9757    -0.9642    -0.8908    26.5078    26.5090   10.00334   10.17245         26   0.0
+      31196   '11-JUL-2014 07:49:22.80'     23.000    -0.7548   0.626717    -0.6242   0.629420      89.53     0.14460     3.4963     3.1313   34.234291   -1.4052612     47.07734     -47.27998    32.9614    32.9750    -0.7554    -0.6248    26.4924    26.4985   10.22005   10.67894         23   0.0
+      31219   '11-JUL-2014 07:49:23.74'     22.000    -0.3533   0.633895    -0.2508   0.636251      61.62     0.18940     3.5742     3.2258   34.130341   -1.3458912     47.07734     -47.27998    32.9381    32.9618    -0.3539    -0.2515    26.4577    26.4724   10.46248   10.82256         22   0.0
+      31240   '11-JUL-2014 07:49:24.64'     21.000    -0.0409   0.639970     0.1361   0.643445      89.99     0.18350     3.6545     3.2754   34.116566   -1.3343427     47.07734     -47.27998    32.9469    32.9529    -0.0416     0.1354    26.4507    26.4471   10.40909    9.97890         22   0.0
+      31263   '11-JUL-2014 07:49:25.58'     20.000     0.4772   0.649340     0.7067   0.654113      91.70     0.14500     3.6995     3.2464   33.922554   -1.2266550     47.07734     -47.27998    32.9189    32.9401     0.4765     0.7059    26.4021    26.4064    9.57088    8.92190         23   0.0
+      31287   '11-JUL-2014 07:49:26.57'     19.000     0.8808   0.656829     1.3101   0.665542      87.11     0.10450     3.6648     3.1798   33.835583   -1.1675521     47.07734     -47.27998    32.9062    32.9308     0.8800     1.3093    26.3691    26.3617    8.57506    8.40178         24   0.0
+      31311   '11-JUL-2014 07:49:27.59'     18.000     1.6881   0.672287     2.2711   0.684153      98.70     0.07400     3.5876     3.1134   33.615997   -0.8891578     47.07733     -47.27998    32.9014    32.9304     1.6872     2.2702    26.3124    26.2929    8.00343    8.13275         25   0.0
+      31336   '11-JUL-2014 07:49:28.63'     17.000     2.6273   0.690222     3.0780   0.699767      78.34     0.05700     3.5119     3.0622   33.507599   -0.7429690     47.07732     -47.27998    32.8843    32.9219     2.6264     3.0770    26.2277    26.2194    7.72987    7.92959         25   0.0
+      31361   '11-JUL-2014 07:49:29.65'     16.000     3.6264   0.710003     4.4949   0.727806      89.21     0.04990     3.4537     3.0244   33.242477   -0.4574902     47.07732     -47.27998    32.8934    32.9212     3.6254     4.4938    26.1464    26.0798    7.56053    7.73239         24   0.0
+      31384   '11-JUL-2014 07:49:30.62'     15.000     5.3776   0.742510     6.7903   0.772542      98.60     0.04310     3.4141     3.0002   33.150566   -0.3508689     47.07732     -47.27997    32.7789    32.8537     5.3765     6.7890    25.8707    25.7552    7.30106    7.42233         23   0.0
+      31407   '11-JUL-2014 07:49:31.56'     14.000     6.9601   0.774442     7.7622   0.791053      92.32     0.04130     3.3887     2.9841   32.505184    0.1333223     47.07732     -47.27996    32.7814    32.7943     6.9589     7.7608    25.6766    25.5765    7.07390    7.13881         22   0.0
+      31429   '11-JUL-2014 07:49:32.48'     13.000     7.6571   0.787941     7.9761   0.795219      36.99     0.04650     3.3722     2.9719   32.195320    0.3830076     47.07732     -47.27998    32.7502    32.7849     7.6559     7.9748    25.5568    25.5385    6.97771    7.01326         22   0.0
+      31450   '11-JUL-2014 07:49:33.39'     12.000     7.7851   0.791193     8.0337   0.796205      86.83     0.05060     3.3608     2.9631   31.834755    1.2261722     47.07732     -47.27998    32.7800    32.7766     7.7840     8.0325    25.5620    25.5235    6.95087    6.97806         22   0.0
+      31473   '11-JUL-2014 07:49:34.35'     11.000     7.9445   0.794080     8.0740   0.796764      31.84     0.05150     3.3504     2.9537   31.459131    2.1593847     47.07732     -47.27998    32.7682    32.7649     7.9434     8.0729    25.5299    25.5085    6.93717    6.93218         24   0.0
+      31498   '11-JUL-2014 07:49:35.39'     10.000     8.0170   0.795423     8.0918   0.796930       4.58     0.05810     3.3474     2.9473   31.287985    2.9535301     47.07730     -47.27998    32.7574    32.7562     8.0160     8.0908    25.5109    25.4991    6.95699    6.93239         26   0.0
+      31524   '11-JUL-2014 07:49:36.44'      9.000     8.0668   0.796211     8.0919   0.796749       4.27     0.06220     3.3479     2.9449   31.110996    3.8275244     47.07730     -47.27998    32.7473    32.7483     8.0659     8.0910    25.4957    25.4928    6.97059    6.94632         24   0.0
+      31548   '11-JUL-2014 07:49:37.46'      8.000     8.0719   0.796194     8.0939   0.796680       4.15     0.06290     3.3498     2.9467   31.068829    4.2682514     47.07730     -47.27998    32.7422    32.7438     8.0711     8.0932    25.4909    25.4889    6.97350    6.96947         26   0.0
+      31579   '11-JUL-2014 07:49:38.75'      7.000     8.0993   0.796587     8.1145   0.796935       4.53     0.06820     3.3514     2.9512   31.020988    4.6637392     47.07730     -47.27996    32.7350    32.7366     8.0986     8.1138    25.4813    25.4803    6.97264    6.97825         35   0.0
+      31615   '11-JUL-2014 07:49:40.25'      6.000     7.9595   0.793822     8.0694   0.795699      46.77     0.07250     3.3549     2.9533   30.870199    5.1749496     47.07730     -47.27996    32.7398    32.7228     7.9589     8.0688    25.5053    25.4760    7.01615    6.98977         39   0.0
+      31671   '11-JUL-2014 07:49:42.59'      5.000     7.9326   0.792946     7.8899   0.792079      96.31     0.06670     3.3621     2.9515   30.937933    5.6194239     47.07729     -47.27996    32.7254    32.7257     7.9321     7.8894    25.4979    25.5043    7.02911    6.98515         67   0.0
+      31730   '11-JUL-2014 07:49:45.04'      4.000     7.9448   0.793056     7.9248   0.792660      93.91     0.07030     3.3648     2.9525   30.906282    5.9021897     47.07728     -47.27995    32.7199    32.7200     7.9444     7.9245    25.4918    25.4948    7.01436    6.98078         54   0.0
+      32035   '11-JUL-2014 07:49:57.77'      3.000     7.9806   0.793977     8.0718   0.795541      63.02     0.06770     3.3663     2.9540   30.716131    6.8648953     47.07724     -47.27994    32.7200    32.7148     7.9838     8.0715    25.4862    25.4693    7.00829    6.97853         67   0.0
+      32992   '11-JUL-2014 07:50:37.63'      2.000     8.1450   0.796936     8.1442   0.796925       2.57     0.05590     3.3629     2.9546   30.502335    8.1246271     47.07712     -47.27990    32.7107    32.7107     8.1447     8.1440    25.4555    25.4556    6.83657    6.87949         52   0.0
+      33040   '11-JUL-2014 07:50:39.63'      1.000     8.1423   0.796881     8.1418   0.796867       2.69     0.05220     3.2935     2.8675   30.506874    8.1177998     47.07712     -47.27989    32.7110    32.7108     8.1422     8.1417    25.4561    25.4560    6.65149    6.27909         63   0.0
