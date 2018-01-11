@@ -7,5 +7,5 @@ Le projet « Caractérisation des courants océaniques, de la variabilité et de
 src - folder contains R scripts used for processing data  
 data - folder contains raw data and, in the case of the LADCP sub-folder, matlab data and scripts.
 
-src – Le dossier contient des scénarios R utilisés pour le traitement des données
+src – Le dossier contient des scénarios R utilisés pour le traitement des données  
 data – Le dossier contient des données brutes et, dans le cas du sous-dossier LADCP, des données et des scénarios MATLAB.
